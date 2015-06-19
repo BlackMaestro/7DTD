@@ -8124,7 +8124,23 @@ ARMOR ATTRIBUTE EXAMPLE
             <property name="Rot" value="90,45,0" />
         </property>
     </item> 
-<!---->
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+	<item id="1100" name="BonePowder">
+		<property name="Meshfile" value="Items/Food/cornmeal" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="25" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+
+	
+	
+	
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
      	<item id="3500" name="Admin_tool_1">
 		<property name="CustomIcon" value="pistol" />
 		<property name="Meshfile" value="#DiamondSword?DiamondSwordPrefab" />

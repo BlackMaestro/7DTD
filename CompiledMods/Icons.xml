@@ -612,10 +612,10 @@
   <item name="ingotIron" x="1972" y="1360" w="116" h="80" />
   <item name="ingotLead" x="2088" y="1360" w="116" h="80" />-->
   <item name="IngotMoldBrass" x="2204" y="1360" w="116" h="80" />
-  <item name="IngotMoldCopper" x="2320" y="1360" w="116" h="80" />
+<!--  <item name="IngotMoldCopper" x="2320" y="1360" w="116" h="80" />
   <item name="IngotMoldIron" x="2436" y="1360" w="116" h="80" />
   <item name="IngotMoldLead" x="2552" y="1360" w="116" h="80" />
-  <item name="IngotMoldTungsten" x="2668" y="1360" w="116" h="80" />
+  <item name="IngotMoldTungsten" x="2668" y="1360" w="116" h="80" />-->
 <!--<item name="ingotTungsten" x="2784" y="1360" w="116" h="80" />-->
   <item name="insideCornerWedgeAsphaltShingle" x="2900" y="1360" w="116" h="80" />
   <item name="insideCornerWedgeClayRoof" x="3016" y="1360" w="116" h="80" />
@@ -1456,6 +1456,7 @@
   <item name="coalOre"            x="0"    y="4080" w="116" h="80" />
   <item name="copperOre"          x="116"  y="4080" w="116" h="80" />
   <item name="ingotCopper"        x="116"  y="4160" w="116" h="80" />
+  <item name="IngotMoldCopper"    x="116"  y="4320" w="116" h="80" />
   <item name="tinOre"             x="232"  y="4080" w="116" h="80" />
   <item name="tinIngot"           x="232"  y="4160" w="116" h="80" />
   <item name="IngotMoldTin"       x="232"  y="4320" w="116" h="80" />
@@ -1467,8 +1468,10 @@
   <item name="IngotMoldAluminium" x="464"  y="4320" w="116" h="80" />
   <item name="leadOre"            x="580"  y="4080" w="116" h="80" />
   <item name="ingotLead"          x="580"  y="4160" w="116" h="80" />
+  <item name="IngotMoldLead"      x="580"  y="4320" w="116" h="80" />
   <item name="ironOre"            x="696"  y="4080" w="116" h="80" />
   <item name="ingotIron"          x="696"  y="4160" w="116" h="80" />
+  <item name="IngotMoldIron"      x="696"  y="4320" w="116" h="80" />
   <item name="goldOre"            x="812"  y="4080" w="116" h="80" />
   <item name="goldIngot"          x="812"  y="4160" w="116" h="80" />
   <item name="IngotMoldGold"      x="812"  y="4320" w="116" h="80" />
@@ -1480,6 +1483,7 @@
   <item name="IngotMoldSulphur"   x="1044" y="4320" w="116" h="80" />
   <item name="tungstenOre"        x="1160" y="4080" w="116" h="80" />
   <item name="ingotTungsten"      x="1160" y="4160" w="116" h="80" />
+  <item name="IngotMoldTungsten"  x="1160" y="4320" w="116" h="80" />
   <item name="chromeOre"          x="1276" y="4080" w="116" h="80" />
   <item name="chromeIngot"        x="1276" y="4160" w="116" h="80" />
   <item name="IngotMoldChrome"    x="1276" y="4320" w="116" h="80" />

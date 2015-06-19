@@ -1463,9 +1463,9 @@
   <item name="zincOre"            x="348"  y="4080" w="116" h="80" />
   <item name="zincIngot"          x="348"  y="4160" w="116" h="80" />
   <item name="IngotMoldZinc"      x="348"  y="4320" w="116" h="80" />
-  <item name="aluminiumOre"       x="464"  y="4080" w="116" h="80" />
-  <item name="aluminiumIngot"     x="464"  y="4160" w="116" h="80" />
-  <item name="IngotMoldAluminium" x="464"  y="4320" w="116" h="80" />
+  <item name="aluminumOre"        x="464"  y="4080" w="116" h="80" />
+  <item name="aluminumIngot"      x="464"  y="4160" w="116" h="80" />
+  <item name="IngotMoldAluminum"  x="464"  y="4320" w="116" h="80" />
   <item name="leadOre"            x="580"  y="4080" w="116" h="80" />
   <item name="ingotLead"          x="580"  y="4160" w="116" h="80" />
   <item name="IngotMoldLead"      x="580"  y="4320" w="116" h="80" />

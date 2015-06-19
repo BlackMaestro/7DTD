@@ -631,4 +631,13 @@
 		<property name="stability_glue" value="80" />
 		<property name="Mass" type="int" value="20" />
 	</material>
+	<material id="energy">
+		<property name="damage_category" value="metal" />
+		<property name="surface_category" value="metal" />
+		<property name="forge_category" value="energy" />
+		<property name="Hardness" type="float" value="1.5" />
+		<property name="stepsound" value="metal" />
+		<property name="stability_glue" value="0" />
+		<property name="Mass" type="int" value="1" />
+	</material>
 </materials>

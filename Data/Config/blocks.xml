@@ -279,14 +279,14 @@
 		<drop event="Fall" name="goldOre" />
 		<property name="DropScale" value="2" />
 	</block>
-	<block id="30" name="aluminiumOre">
+	<block id="30" name="aluminumOre">
 		<property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />
 		<property name="Mesh" value="terrain" />
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
-		<drop event="Destroy" name="aluminiumOre" count="1" prob="1.0" />
-		<drop event="Fall" name="aluminiumOre" />
+		<drop event="Destroy" name="aluminumOre" count="1" prob="1.0" />
+		<drop event="Fall" name="aluminumOre" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="31" name="silverOre">

@@ -78,7 +78,7 @@
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
 					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
 					<resource blockname="goldOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
 					<resource blockname="silverOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
 					<resource blockname="sulphurOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
@@ -145,7 +145,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -201,7 +201,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -298,7 +298,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -354,7 +354,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -462,7 +462,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -518,7 +518,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -609,7 +609,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -665,7 +665,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -769,7 +769,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -825,7 +825,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -922,7 +922,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -978,7 +978,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1089,7 +1089,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -1145,7 +1145,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1237,7 +1237,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -1293,7 +1293,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1367,7 +1367,7 @@
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 				</layer>
@@ -1423,7 +1423,7 @@
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
-					<resource blockname="aluminiumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />

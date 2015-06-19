@@ -9100,7 +9100,7 @@ ARMOR ATTRIBUTE EXAMPLE
             <property name="Rot" value="10,-45,0" />
         </property>
     </item>
-	<item id="3454" name="aluminiumIngot">
+	<item id="3454" name="aluminumIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Aluminum" />
 		<property name="HoldType" value="21" />
@@ -9112,12 +9112,12 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-    <item id="3455" name="IngotMoldAluminium">
+    <item id="3455" name="IngotMoldAluminum">
         <property name="Meshfile" value="Items/Crafting/mold" />
         <property name="Material" value="metal" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="1" />
-        <property name="MoldTarget" value="aluminiumIngot" />
+        <property name="MoldTarget" value="aluminumIngot" />
         <property name="Group" value="Forging/Molds" />
         <property class="Preview">
             <property name="Zoom" value="18" />
@@ -9300,4 +9300,5 @@ ARMOR ATTRIBUTE EXAMPLE
             <property name="Rot" value="10,-45,0" />
         </property>
     </item>
+
 </items>

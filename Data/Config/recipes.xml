@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ver 0.0.0.003-->
+<!-- ver 0.0.0.001-->
 <recipes>
     <recipe name="cabbage_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="cabbage" count="1" grid="0, 0"/>
@@ -249,6 +249,12 @@
 
     <recipe name="arrow" count="5" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="rockSmall" count="1" grid="2, -2"/>
+        <ingredient name="femur" count="1" grid="1, -1"/>
+        <ingredient name="feather" count="1" grid="0, 0"/>
+    </recipe>
+
+    <recipe name="arrow" count="5" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="rockSmall" count="1" grid="2, -2"/>
         <ingredient name="stick" count="1" grid="1, -1"/>
         <ingredient name="feather" count="1" grid="0, 0"/>
     </recipe>
@@ -459,6 +465,7 @@
     <recipe name="clayLump" count="5" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="cornMeal" count="1" grid="0, 0"/>
         <ingredient name="bottledWater" count="1" grid="1, 0"/>
+        <ingredient name="dirt" count="1" grid="0, 0"/>
     </recipe>
 
     <recipe name="clayLump" count="9" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -2051,7 +2058,7 @@
     </recipe>
 
     <recipe name="IngotMoldIron" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="shortMetalPipe" count="1" grid="0, 0"/>
+        <ingredient name="ironOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2060,7 +2067,7 @@
     </recipe>
 
     <recipe name="IngotMoldLead" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="clayLump" count="1" grid="0, 0"/>
+        <ingredient name="leadOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2069,7 +2076,15 @@
     </recipe>
 
     <recipe name="IngotMoldTungsten" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="woodPlank" count="1" grid="0, 0"/>
+        <ingredient name="tungstenOre" count="1" grid="0, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 1"/>
+        <ingredient name="clayLump" count="1" grid="0, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 0"/>
+    </recipe>
+    <recipe name="IngotMoldCopper" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="copperOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2078,7 +2093,7 @@
     </recipe>
    
     <recipe name="IngotMoldChrome" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="chromeIngot" count="1" grid="0, 0"/>
+        <ingredient name="chromeOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2087,7 +2102,7 @@
     </recipe>    
     
     <recipe name="IngotMoldZinc" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="zincIngot" count="1" grid="0, 0"/>
+        <ingredient name="zincOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2096,7 +2111,7 @@
     </recipe>   
     
     <recipe name="IngotMoldTin" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="tinIngot" count="1" grid="0, 0"/>
+        <ingredient name="tinOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2105,7 +2120,7 @@
     </recipe>   
     
     <recipe name="IngotMoldTitan" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="titanIngot" count="1" grid="0, 0"/>
+        <ingredient name="titanOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2114,7 +2129,7 @@
     </recipe>   
     
     <recipe name="IngotMoldManganese" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="manganeseIngot" count="1" grid="0, 0"/>
+        <ingredient name="manganeseOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2123,7 +2138,7 @@
     </recipe> 
     
     <recipe name="IngotMoldNickel" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="nickelIngot" count="1" grid="0, 0"/>
+        <ingredient name="nickelOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2132,7 +2147,7 @@
     </recipe> 
     
     <recipe name="IngotMoldSulphur" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="sulphurIngot" count="1" grid="0, 0"/>
+        <ingredient name="sulphurOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>
@@ -2140,8 +2155,24 @@
         <ingredient name="clayLump" count="1" grid="1, 0"/>
     </recipe> 
     
-    <recipe name="IngotMoldAluminium" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="aluminiumIngot" count="1" grid="0, 0"/>
+    <recipe name="IngotMoldAluminum" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="aluminumOre" count="1" grid="0, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 1"/>
+        <ingredient name="clayLump" count="1" grid="0, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 0"/>
+    </recipe> 
+    <recipe name="IngotMoldGold" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="goldOre" count="1" grid="0, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 0"/>
+        <ingredient name="clayLump" count="1" grid="-1, 1"/>
+        <ingredient name="clayLump" count="1" grid="0, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 1"/>
+        <ingredient name="clayLump" count="1" grid="1, 0"/>
+    </recipe> 
+    <recipe name="IngotMoldSilver" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="silverOre" count="1" grid="0, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 0"/>
         <ingredient name="clayLump" count="1" grid="-1, 1"/>
         <ingredient name="clayLump" count="1" grid="0, 1"/>

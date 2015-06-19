@@ -8243,7 +8243,7 @@ ARMOR ATTRIBUTE EXAMPLE
 
 
 
-
+<!--Растения-->
 
 	<item id="1000" name="cabbage">
 		<property name="Meshfile" value="Items/Food/vegetable_corn" />
@@ -8948,7 +8948,7 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-<!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others-->
+<!--Разное расходники для крафта-->
 	<item id="2500" name="Bulb">
 		<property name="Meshfile" value="Items/Misc/brokenGlass" />
 		<property name="Material" value="glass" />
@@ -8971,7 +8971,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Group" value="Miscellaneous" />
 	</item>
 	
-<!--Ingots--><!--Mold--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots-->
+<!--Минералы и другие металлы и сплдавы-->
 	<item id="3450" name="goldIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Gold" />

@@ -6,7 +6,7 @@
 	<item name="Admin_tool_2" />
 	<item name="Admin_tool_3" />
 <!--Tools-->
-<!--Gaia-->
+<!--Растения-->
 	<item name="cabbage" />
 	<item name="cabbage_Seed" />
 	<item name="tomato" />
@@ -43,14 +43,14 @@
 	<item name="garlic_Seed" />
 	<item name="sweetbrier" />
 	<item name="sweetbrier_Seed" />
-<!--Eat-->
+<!--Еда-->
 	<item name="BonePowder" />
 
 <!--Medic-->
 <!--Store-->
 <!--Weapons-->
 <!--Cothes-->
-<!--Metall-->
+<!--Минералы и другие металлы и сплдавы-->
 	<item name="goldIngot" />
 	<item name="IngotMoldGold" />
 	<item name="silverIngot" />
@@ -71,7 +71,7 @@
 	<item name="IngotMoldZinc" />
 	<item name="chromeIngot" />
 	<item name="IngotMoldChrome" />
-<!--Other-->
+<!--Разное расходники для крафта-->
 	<item name="Cooling_System" />
 	<item name="Bulb" />
 	

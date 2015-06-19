@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ver 0.0.0.004-->
+<!-- ver 0.0.0.005-->
 <recipes>
     <recipe name="cabbage_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="cabbage" count="1" grid="0, 0"/>
@@ -462,32 +462,32 @@
     </recipe>
 
     <recipe name="cloth" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="bottledWater" count="1" grid="0, -1"/>
+        <ingredient name="bottledWater" count="1" grid="0, -2"/>
+        <ingredient name="cotton" count="2" grid="0, -1"/>
         <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="woodPlank" count="1" grid="0, 0"/>
-        <ingredient name="stick" count="1" grid="0, 0"/>
+        <ingredient name="woodPlank" count="1" grid="0, 1"/>
+        <ingredient name="stick" count="1" grid="0, 2"/>
     </recipe>
     <recipe name="cloth" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="bottledRiverWater" count="1" grid="0, -1"/>
+        <ingredient name="bottledRiverWater" count="1" grid="0, -2"/>
+        <ingredient name="cotton" count="2" grid="0, -1"/>
         <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="woodPlank" count="1" grid="0, 0"/>
-        <ingredient name="stick" count="1" grid="0, 0"/>
+        <ingredient name="woodPlank" count="1" grid="0, 1"/>
+        <ingredient name="stick" count="1" grid="0, 2"/>
     </recipe>
     <recipe name="cloth" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="canBoiledWater" count="1" grid="0, -1"/>
+        <ingredient name="canBoiledWater" count="1" grid="0, -2"/>
+        <ingredient name="cotton" count="2" grid="0, -1"/>
         <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="woodPlank" count="1" grid="0, 0"/>
-        <ingredient name="stick" count="1" grid="0, 0"/>
+        <ingredient name="woodPlank" count="1" grid="0, 1"/>
+        <ingredient name="stick" count="1" grid="0, 2"/>
     </recipe>
     <recipe name="cloth" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="canMurkyWater" count="1" grid="0, -1"/>
+        <ingredient name="canMurkyWater" count="1" grid="0, -2"/>
+        <ingredient name="cotton" count="2" grid="0, -1"/>
         <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="cotton" count="2" grid="0, 0"/>
-        <ingredient name="woodPlank" count="1" grid="0, 0"/>
-        <ingredient name="stick" count="1" grid="0, 0"/>
+        <ingredient name="woodPlank" count="1" grid="0, 1"/>
+        <ingredient name="stick" count="1" grid="0, 2"/>
     </recipe>    
 
 

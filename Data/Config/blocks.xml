@@ -268,6 +268,7 @@
     <property name="Texture" value="403" />
     <property name="DropScale" value="2" />
   </block>
+<!--Минералы и другие металлы и сплдавы-->
     <block id="29" name="goldOre">
 	    <property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />

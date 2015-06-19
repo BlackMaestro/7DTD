@@ -69,4 +69,8 @@
 	<item name="IngotMoldZinc" />
 	<item name="chromeIngot" />
 	<item name="IngotMoldChrome" />
+<!--Other-->
+	<item name="Cooling_System" />
+	<item name="Bulb" />
+	
 </group>

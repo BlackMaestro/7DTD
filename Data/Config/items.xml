@@ -8932,7 +8932,28 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-
+<!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others--><!--Others-->
+	<item id="2500" name="Bulb">
+		<property name="Meshfile" value="Items/Misc/brokenGlass" />
+		<property name="Material" value="glass" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="1" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2501" name="Cooling_System">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="31" />
+		<property name="Weight" value="1" />
+		<property name="Group" value="Miscellaneous" />
+	</item>
+	<item id="2502" name="Сircuit">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="31" />
+		<property name="Weight" value="1" />
+		<property name="Group" value="Miscellaneous" />
+	</item>
 	
 <!--Ingots--><!--Mold--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots-->
 	<item id="3450" name="goldIngot">

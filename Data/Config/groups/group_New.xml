@@ -71,6 +71,9 @@
 	<item name="IngotMoldZinc" />
 	<item name="chromeIngot" />
 	<item name="IngotMoldChrome" />
+	<item name="magnesiumIngot" />
+	<item name="IngotMoldMagnesium" />
+	
 <!--Разное расходники для крафта-->
 	<item name="Cooling_System" />
 	<item name="Bulb" />
@@ -84,5 +87,9 @@
 	<item name="BatteryD" />
 	<item name="BatteryE" />
 	<item name="Bulb" />
+
+	
+	<item name="M202A1_'FLASH'" />
+	<item name="M74_Rocket" />
 	
 </group>

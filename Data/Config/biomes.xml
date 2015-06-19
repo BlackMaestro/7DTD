@@ -57,41 +57,107 @@
 
 					<resource blockname="sand" prob="0.1" />
 				</layer>
-				<layer depth="20" blockname="stone">
-					</layer>
+				<layer depth="3" blockname="dirt">
+					<resource blockname="clay" prob="0.15" />
+				</layer>
+				<layer depth="1" blockname="dirt">
+					<resource blockname="sand" prob="0.1" />
+				</layer>
+				<layer depth="5" blockname="dirt">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="coalOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="copperOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
 				<layer depth="2" blockname="gravel">
-					<resource blockname="ice" prob="0.1" />
 					<resource blockname="stone" prob="0.3" />
+					<resource blockname="tinOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
-				<layer depth="20" blockname="stone">
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="2" blockname="stone">
+					<resource blockname="potassiumNitrate" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
 				</layer>
 				<layer depth="2" blockname="gravel">
 					<resource blockname="stone" prob="0.3" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
-				<layer depth="20" blockname="stone">
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="leadOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="ironOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="zincOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="silverOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="goldOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="sulphurOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="chromeOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="nickelOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+				</layer>
+				<layer depth="1" blockname="stone">
+					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="3" blockname="stone">
+					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="quarzOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+				</layer>
+				<layer depth="2" blockname="stone">
+					<resource blockname="tungstenOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="goldOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="silverOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="sulphurOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
-					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="caves" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="aluminumOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="leadOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="ironOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="zincOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="silverOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="goldOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="sulphurOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
+					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>
@@ -187,6 +253,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -197,7 +264,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -211,13 +278,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+	-->			</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<spectrum name="forest" />
@@ -340,6 +408,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -350,7 +419,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -364,13 +433,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>
@@ -504,6 +574,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -514,7 +585,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -528,13 +599,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+	-->			</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>
@@ -651,6 +723,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -661,7 +734,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -675,13 +748,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>
@@ -811,6 +885,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -821,7 +896,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -835,13 +910,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<spectrum name="pine_forest" />
@@ -964,6 +1040,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -974,7 +1051,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -988,13 +1065,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<spectrum name="wasteland" />
@@ -1131,6 +1209,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -1141,7 +1220,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1155,13 +1234,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>
@@ -1279,6 +1359,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -1289,7 +1370,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1303,13 +1384,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<spectrum name="wasteland" />
@@ -1409,6 +1491,7 @@
 				</layer>
 				<layer depth="1" blockname="stone">
 					<resource blockname="manganeseOre" cluster="1" prob="0.1" rwgGenerationType="all" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="3" blockname="stone">
 					<resource blockname="marbleOre" cluster="1" prob="0.1" rwgGenerationType="all" />
@@ -1419,7 +1502,7 @@
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="all" />
 				</layer>
 				<layer depth="*" blockname="stone">
-					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+<!--					<resource blockname="coalOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="copperOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tinOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="potassiumNitrate" cluster="1" prob="0.05" rwgGenerationType="noise" />
@@ -1433,13 +1516,14 @@
 					<resource blockname="chromeOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="nickelOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="manganeseOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
+					<resource blockname="magnesiumOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="limestoneOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="marbleOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="quarzOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="tungstenOre" cluster="1" prob="0.05" rwgGenerationType="noise" />
 					<resource blockname="apatiteOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
 					<resource blockname="titanOre" cluster="1" prob="0.1" rwgGenerationType="noise" />
-				</layer>
+-->				</layer>
 				<layer depth="3" blockname="bedrock" />
 			</layers>
 			<decorations>

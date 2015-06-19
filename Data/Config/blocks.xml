@@ -409,6 +409,16 @@
 		<drop event="Fall" name="zincOre" />
 		<property name="DropScale" value="2" />
 	</block>
+	<block id="43" name="magnesiumOre">
+		<property name="Material" value="coal" />
+		<property name="Shape" value="Terrain" />
+		<property name="Mesh" value="terrain" />
+		<property name="Texture" value="300" />
+		<property name="Weight" value="96" />
+		<drop event="Destroy" name="magnesiumOre" count="1" prob="1.0" />
+		<drop event="Fall" name="magnesiumOre" />
+		<property name="DropScale" value="2" />
+	</block>
 
 	<block id="100" name="mushroom01">
 		<property name="Class" value="CropsGrown" />

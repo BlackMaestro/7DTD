@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group name="[blocks]">
+	<item name="goldOre" />
+	<item name="aluminumOre" />
+	<item name="silverOre" />
+	<item name="sulphurOre" />
+	<item name="chromeOre" />
+	<item name="nickelOre" />
+	<item name="manganeseOre" />
+	<item name="limestoneOre" />
+	<item name="marbleOre" />
+	<item name="quarzOre" />
+	<item name="apatiteOre" />
+	<item name="titanOre" />
+	<item name="tinOre" />
+	<item name="zincOre" />
+	<item name="magnesiumOre" />
+</group>

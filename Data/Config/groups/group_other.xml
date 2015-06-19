@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group name="[other]">
+	<item name="Bulb" />
+	<item name="Cooling_System" />
+	<item name="Сircuit" />
+	<item name="Wire" />
+	<item name="Electronic_Scrap" />
+	<item name="BatteryAA" />
+	<item name="BatteryAAA" />
+	<item name="BatteryC" />
+	<item name="BatteryF" />
+	<item name="BatteryD" />
+	<item name="BatteryE" />
+	
+	
+</group>

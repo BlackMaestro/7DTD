@@ -5,12 +5,12 @@
 	<item name="Сircuit" />
 	<item name="Wire" />
 	<item name="Electronic_Scrap" />
-	<item name="BatteryAA" />
-	<item name="BatteryAAA" />
-	<item name="BatteryC" />
-	<item name="BatteryF" />
-	<item name="BatteryD" />
-	<item name="BatteryE" />
+	<item name="Battery_LR2032" />
+	<item name="Battery_LR03" />
+	<item name="Battery_LR06" />
+	<item name="Battery_LR14" />
+	<item name="Battery_LR20" />
+	<item name="Battery6F22" />
 	
 	
 </group>

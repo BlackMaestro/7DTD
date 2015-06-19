@@ -8994,7 +8994,7 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="2504" name="BatteryAA">
+	<item id="2505" name="Battery_LR2032">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />
@@ -9003,7 +9003,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
-	<item id="2505" name="BatteryAAA">
+	<item id="2506" name="Battery_LR03">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />
@@ -9012,7 +9012,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
-	<item id="2506" name="BatteryC">
+	<item id="2507" name="Battery_LR06">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />
@@ -9021,7 +9021,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
-	<item id="2507" name="BatteryF">
+	<item id="2508" name="Battery_LR14">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />
@@ -9030,7 +9030,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
-	<item id="2508" name="BatteryD">
+	<item id="2509" name="Battery_LR20">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />
@@ -9039,7 +9039,7 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
-	<item id="2509" name="BatteryE">
+	<item id="2510" name="Battery_6F22">
 		<property name="Meshfile" value="Items/Misc/parcel" />
 		<property name="Material" value="energy" />
 		<property name="HoldType" value="31" />

@@ -1500,6 +1500,7 @@
   <item name="titanOre"           x="2088" y="4080" w="116" h="80" />
   <item name="titanIngot"         x="464"  y="4160" w="116" h="80" />
   <item name="IngotMoldTitan"     x="464"  y="4320" w="116" h="80" />
+  <item name="magnesiumOre"       x="2204" y="4080" w="116" h="80" />
   <!--Gaia-->
   <item name="strawberry"        x="0"    y="5840" w="116" h="80" />
   <item name="strawberry_Seed"   x="0"    y="3920" w="116" h="80" />

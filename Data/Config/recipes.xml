@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ver 0.0.0.003-->
+<!-- ver 0.0.0.004-->
 <recipes>
     <recipe name="cabbage_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="cabbage" count="1" grid="0, 0"/>
@@ -55,14 +55,6 @@
     <recipe name="sweetbrier_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="sweetbrier" count="1" grid="0, 0"/>
     </recipe>
-
-
-
-
-
-
-
-
 
 
 
@@ -1221,33 +1213,6 @@
         <ingredient name="pistol_grip" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="pistol_barrel_mold" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="clayLump" count="1" grid="-1, 0"/>
-        <ingredient name="pistol_barrel" count="1" grid="0, 0"/>
-        <ingredient name="clayLump" count="1" grid="1, 0"/>
-        <ingredient name="clayLump" count="1" grid="-1, 1"/>
-        <ingredient name="clayLump" count="1" grid="0, 1"/>
-        <ingredient name="clayLump" count="1" grid="1, 1"/>
-    </recipe>
-
-    <recipe name="pistol_parts_mold" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="clayLump" count="1" grid="-1, 0"/>
-        <ingredient name="pistol_parts" count="1" grid="0, 0"/>
-        <ingredient name="clayLump" count="1" grid="1, 0"/>
-        <ingredient name="clayLump" count="1" grid="-1, 1"/>
-        <ingredient name="clayLump" count="1" grid="0, 1"/>
-        <ingredient name="clayLump" count="1" grid="1, 1"/>
-    </recipe>
-
-    <recipe name="pistol_receiver_mold" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="clayLump" count="1" grid="-1, 0"/>
-        <ingredient name="pistol_receiver" count="1" grid="0, 0"/>
-        <ingredient name="clayLump" count="1" grid="1, 0"/>
-        <ingredient name="clayLump" count="1" grid="-1, 1"/>
-        <ingredient name="clayLump" count="1" grid="0, 1"/>
-        <ingredient name="clayLump" count="1" grid="1, 1"/>
-    </recipe>
-
     <recipe name="planks4" count="8" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="plantChrysanthemum" count="1" grid="0, -2"/>
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
@@ -2039,10 +2004,7 @@
         <ingredient name="shortMetalPipe" count="1" grid="0, 2"/>
     </recipe>
 
-	
-	
-	
-     <recipe name="IngotMoldBrass" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="IngotMoldBrass" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="clayLump" count="1" grid="-1, -2"/>
         <ingredient name="clayLump" count="1" grid="1, -2"/>
         <ingredient name="clayLump" count="1" grid="-1, -1"/>

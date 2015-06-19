@@ -8968,7 +8968,85 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="31" />
 		<property name="Weight" value="1" />
-		<property name="Group" value="Miscellaneous" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2503" name="Wire">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="15" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="2504" name="Electronic_Scrap">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="15" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="2504" name="BatteryAA">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2505" name="BatteryAAA">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2506" name="BatteryC">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2507" name="BatteryF">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2508" name="BatteryD">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2509" name="BatteryE">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="energy" />
+		<property name="HoldType" value="31" />
+		<property name="Stacknumber" value="64" />
+		<property name="DropScale" value="1" />
+		<property name="Weight" value="5" />
+		<property name="Group" value="Resources" />
 	</item>
 	
 <!--Минералы и другие металлы и сплдавы-->

@@ -251,6 +251,7 @@
     <recipe name="arrow" count="5" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="rockSmall" count="1" grid="2, -2"/>
         <ingredient name="stick" count="1" grid="1, -1"/>
+        <ingredient name="Threads" count="1" grid="1, 0"/>
         <ingredient name="feather" count="1" grid="0, 0"/>
     </recipe>
 
@@ -443,6 +444,7 @@
 
     <recipe name="candle" count="1" scrapable="False" craft_time="2" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="yuccaFibers" count="1" grid="0, -1"/>
+        <ingredient name="Threads" count="1" grid="0, -2"/>
         <ingredient name="tallow" count="1" grid="0, 0"/>
     </recipe>
 
@@ -471,33 +473,48 @@
         <wildcard_forge_category />
     </recipe>
 
-    <recipe name="cloth" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="cloth" count="1" scrapable="False" craft_time="30" craft_exp_gain="15" learn_exp_gain="20" >
         <ingredient name="stick" count="1" grid="0, -2"/>
-        <ingredient name="cotton" count="1" grid="0, -1"/>
-        <ingredient name="cotton" count="1" grid="0, 0"/>
-        <ingredient name="cotton" count="1" grid="0, 1"/>
-        <ingredient name="woodPlank" count="1" grid="0, 2"/>
+        <ingredient name="Threads" count="1" grid="0, -1"/>
+        <ingredient name="Threads" count="1" grid="0, 0"/>
+        <ingredient name="Needle" count="1" grid="1, 0"/>
+        <ingredient name="stick" count="1" grid="0, 1"/>
     </recipe>
     
-    <recipe name="clothBoots" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="cloth" count="1" grid="0, -1"/>
-        <ingredient name="cloth" count="1" grid="0, 0"/>
+    <recipe name="clothBoots" count="1" scrapable="False" craft_time="20" craft_exp_gain="35" learn_exp_gain="50" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="cloth" count="1" grid="-1, 0"/>
+        <ingredient name="cloth" count="1" grid="-1, 1"/>
+        <ingredient name="cloth" count="1" grid="-2, 2"/>
+        <ingredient name="woodPlank" count="1" grid="-1, 1"/>
         <ingredient name="cloth" count="1" grid="1, 0"/>
-    </recipe>
-
-    <recipe name="clothGloves" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="cloth" count="1" grid="0, 0"/>
         <ingredient name="cloth" count="1" grid="1, 1"/>
+        <ingredient name="cloth" count="1" grid="2, 2"/>
+        <ingredient name="woodPlank" count="1" grid="-1, 1"/>
     </recipe>
 
-    <recipe name="clothHat" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="clothGloves" count="1" scrapable="False" craft_time="20" craft_exp_gain="35" learn_exp_gain="50" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="cloth" count="1" grid="1, 0"/>
+        <ingredient name="cloth" count="1" grid="2, 1"/>
+        <ingredient name="cloth" count="1" grid="-1, 0"/>
+        <ingredient name="cloth" count="1" grid="-2, 2"/>
+    </recipe>
+
+    <recipe name="clothHat" count="1" scrapable="False" craft_time="20" craft_exp_gain="35" learn_exp_gain="50" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="cloth" count="1" grid="0, -1"/>
         <ingredient name="cloth" count="1" grid="-1, 0"/>
         <ingredient name="cloth" count="1" grid="0, 0"/>
         <ingredient name="cloth" count="1" grid="1, 0"/>
     </recipe>
 
-    <recipe name="clothJacket" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="clothJacket" count="1" scrapable="False" craft_time="30" craft_exp_gain="35" learn_exp_gain="50" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="cloth" count="1" grid="-1, -1"/>
         <ingredient name="cloth" count="1" grid="0, -1"/>
         <ingredient name="cloth" count="1" grid="1, -1"/>
@@ -509,6 +526,8 @@
     </recipe>
 
     <recipe name="clothPants" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="2, -2"/>
         <ingredient name="cloth" count="1" grid="-1, -2"/>
         <ingredient name="cloth" count="1" grid="0, -2"/>
         <ingredient name="cloth" count="1" grid="1, -2"/>

@@ -472,13 +472,19 @@
     <recipe name="cloth" count="1" scrapable="False" tooltip="ttScrapMetalBrass" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <wildcard_forge_category />
     </recipe>
-
+    
     <recipe name="cloth" count="1" scrapable="False" craft_time="30" craft_exp_gain="15" learn_exp_gain="20" >
         <ingredient name="stick" count="1" grid="0, -2"/>
         <ingredient name="Threads" count="1" grid="0, -1"/>
         <ingredient name="Threads" count="1" grid="0, 0"/>
         <ingredient name="Needle" count="1" grid="1, 0"/>
         <ingredient name="stick" count="1" grid="0, 1"/>
+    </recipe>
+    
+    <recipe name="Sewing_Kit" count="1" scrapable="False" craft_time="30" craft_exp_gain="15" learn_exp_gain="20" >
+        <ingredient name="Threads" count="1" grid="-1, 0"/>
+        <ingredient name="Needle" count="1" grid="1, 0"/>
+        <ingredient name="cloth" count="1" grid="0, 0"/>
     </recipe>
     
     <recipe name="Threads" count="1" scrapable="False" craft_time="15" craft_exp_gain="15" learn_exp_gain="20" >

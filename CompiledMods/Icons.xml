@@ -1538,5 +1538,16 @@
   <item name="garlic_Seed"       x="0"    y="3920" w="116" h="80" />
   <item name="sweetbrier"        x="1624" y="5840" w="116" h="80" />
   <item name="sweetbrier_Seed"   x="0"    y="3920" w="116" h="80" />
+<!--Other-->
+  <item name="Battery_LR2032"    x="0"    y="6960" w="116" h="80" />
+  <item name="Battery_LR03"      x="116"  y="6960" w="116" h="80" />
+  <item name="Battery_LR06"      x="232"  y="6960" w="116" h="80" />
+  <item name="Battery_LR14"      x="348"  y="6960" w="116" h="80" />
+  <item name="Battery_LR20"      x="464"  y="6960" w="116" h="80" />
+  <item name="Battery_6F22"      x="580"  y="6960" w="116" h="80" />
+  <item name="Bulb"              x="696"  y="6960" w="116" h="80" />
+  <item name="Сircuit"           x="812"  y="6960" w="116" h="80" />
+  <item name="Wire"              x="928"  y="6960" w="116" h="80" />
+  <item name="Electronic_Scrap"  x="1044"  y="6960" w="116" h="80" />
   
 </items>

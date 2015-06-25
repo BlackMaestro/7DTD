@@ -2,8 +2,8 @@
 <prefab>
     <property name="CopyAirBlocks" value="False" />
     <property name="AllowTopSoilDecorations" value="True" />
-    <property name="Zoning" value="Industrial" />
     <property name="RotationToFaceNorth" value="2" />
+    <property name="Zoning" value="Industrial" />
     <property name="AllowedTownships" value="town" />
     <property name="AllowedBiomes" value="plains,forest,pine_forest,desert,burnt_forest,wasteland" />
     <property name="StaticSpawner.Class" value="SpawnSmall" />

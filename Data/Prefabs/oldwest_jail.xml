@@ -2,12 +2,12 @@
 <prefab>
     <property name="CopyAirBlocks" value="False" />
     <property name="AllowTopSoilDecorations" value="True" />
-    <property name="Zoning" value="Industrial" />
     <property name="RotationToFaceNorth" value="2" />
+    <property name="Zoning" value="Industrial" />
     <property name="AllowedTownships" value="town,rural" />
     <property name="AllowedBiomes" value="desert" />
     <property name="StaticSpawner.Class" value="SpawnSmall" />
     <property name="StaticSpawner.Size" value="32,2,32" />
     <property name="StaticSpawner.Trigger" value="64" />
-    <property name="MaxPerHub" value="2" />
+    <property name="MaxPerHub" value="1" />
 </prefab>

@@ -6,7 +6,7 @@
   <property name="RotationToFaceNorth" value="2" />
   <property name="YOffset" value="-1" />
   <property name="AllowedTownships" value="town" />
-  <property name="AllowedBiomes" value="plains,pine_forest,desert,snow" />
+  <property name="AllowedBiomes" value="plains,pine_forest,desert" />
   <property name="StaticSpawner.Class" value="SpawnExtraSmall" />
   <property name="StaticSpawner.Size" value="20,2,20" />
   <property name="StaticSpawner.Trigger" value="120" />

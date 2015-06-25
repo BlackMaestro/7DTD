@@ -2,9 +2,9 @@
 <prefab>
     <property name="CopyAirBlocks" value="False" />
     <property name="AllowTopSoilDecorations" value="True" />
-    <property name="Zoning" value="Residential" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-1" />
+    <property name="Zoning" value="Residential" />
     <property name="AllowedTownships" value="town,rural" />
     <property name="AllowedBiomes" value="burnt_forest,plains,wasteland" />
     <property name="StaticSpawner.Class" value="SpawnSmall" />

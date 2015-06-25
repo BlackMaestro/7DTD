@@ -9048,6 +9048,47 @@ ARMOR ATTRIBUTE EXAMPLE
 		<property name="Weight" value="5" />
 		<property name="Group" value="Resources" />
 	</item>
+	<item id="2511" name="Sewing_Kit">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property name="Stacknumber" value="50" />
+		<property name="RepairTime" value="1" />
+		<property name="RepairAmount" value="50" />
+		<property name="FuelValue" value="20" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2512" name="Needle">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property name="Stacknumber" value="50" />
+		<property name="RepairTime" value="1" />
+		<property name="RepairAmount" value="5" />
+		<property name="FuelValue" value="20" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2513" name="Threads">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property name="Stacknumber" value="50" />
+		<property name="RepairTime" value="1" />
+		<property name="RepairAmount" value="10" />
+		<property name="FuelValue" value="20" />
+		<property name="Group" value="Resources" />
+	</item>
+	<item id="2514" name="Spring">
+		<property name="Meshfile" value="Items/Misc/parcel" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property name="Stacknumber" value="50" />
+		<property name="RepairTime" value="1" />
+		<property name="RepairAmount" value="5" />
+		<property name="FuelValue" value="20" />
+		<property name="Group" value="Resources" />
+	</item>
+
 	
 <!--Минералы и другие металлы и сплдавы-->
 	<item id="3450" name="goldIngot">

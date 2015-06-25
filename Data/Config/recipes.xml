@@ -355,7 +355,7 @@
         <ingredient name="paper" count="64" grid="0, 0"/>
     </recipe>
 
-    <recipe name="bottledRiverWater" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="bottledRiverWater" count="1" scrapable="False" craft_time="2" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="snow" count="1" grid="0, -1"/>
         <ingredient name="emptyJar" count="1" grid="0, 0"/>
     </recipe>
@@ -479,6 +479,11 @@
         <ingredient name="Threads" count="1" grid="0, 0"/>
         <ingredient name="Needle" count="1" grid="1, 0"/>
         <ingredient name="stick" count="1" grid="0, 1"/>
+    </recipe>
+    
+    <recipe name="Threads" count="1" scrapable="False" craft_time="15" craft_exp_gain="15" learn_exp_gain="20" >
+        <ingredient name="cotton" count="2" grid="-1, 0"/>
+        <ingredient name="stick" count="1" grid="0, 0"/>
     </recipe>
     
     <recipe name="clothBoots" count="1" scrapable="False" craft_time="20" craft_exp_gain="35" learn_exp_gain="50" >
@@ -662,7 +667,7 @@
         <ingredient name="cotton" count="1" grid="0, 0"/>
     </recipe>
 
-    <recipe name="crossbow" count="1" scrapable="False" craft_time="20" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="crossbow" count="1" scrapable="False" craft_time="20" craft_exp_gain="25" learn_exp_gain="50" >
         <ingredient name="stick" count="1" grid="0, -2"/>
         <ingredient name="stick" count="1" grid="1, -2"/>
         <ingredient name="forgedIron" count="1" grid="2, -2"/>
@@ -675,9 +680,10 @@
         <ingredient name="stick" count="1" grid="-1, 1"/>
     </recipe>
 
-    <recipe name="crossbowBolt" count="5" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="crossbowBolt" count="5" scrapable="False" craft_time="10" craft_exp_gain="5" learn_exp_gain="20" >
         <ingredient name="rockSmall" count="1" grid="1, -1"/>
         <ingredient name="stick" count="1" grid="0, 0"/>
+        <ingredient name="Threads" count="1" grid="0, 1"/>
         <ingredient name="feather" count="1" grid="-1, 1"/>
     </recipe>
 
@@ -894,6 +900,7 @@
         <ingredient name="huntingRifleStock" count="1" grid="0, 0"/>
         <ingredient name="huntingRifleBolt" count="1" grid="1, 0"/>
         <ingredient name="huntingRifleParts" count="1" grid="1, 1"/>
+        <ingredient name="Spring" count="1" grid="0, -1"/>
     </recipe>
 
     <recipe name="huntingRifleStock" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -926,15 +933,21 @@
         <ingredient name="shortMetalPipe" count="1" grid="2, 2"/>
     </recipe>
 
-    <recipe name="ironBoots" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="leather" count="1" grid="0, -1"/>
-        <ingredient name="forgedIron" count="1" grid="0, 0"/>
-        <ingredient name="forgedIron" count="1" grid="1, 0"/>
+    <recipe name="ironBoots" count="1" scrapable="False" craft_time="15" craft_exp_gain="25" learn_exp_gain="100" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>leatherStrips
+        <ingredient name="leather" count="2" grid="0, 1"/>
+        <ingredient name="leatherStrips" count="2" grid="1, 1"/>
+        <ingredient name="forgedIron" count="2" grid="0, 2"/>
+        <ingredient name="forgedIron" count="2" grid="1, 2"/>
     </recipe>
 
-    <recipe name="ironChestArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="ironChestArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="25" learn_exp_gain="100" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="forgedIron" count="1" grid="-1, -1"/>
-        <ingredient name="forgedIron" count="1" grid="0, -1"/>
+        <ingredient name="leather" count="1" grid="0, -1"/>
         <ingredient name="forgedIron" count="1" grid="1, -1"/>
         <ingredient name="forgedIron" count="1" grid="-2, 0"/>
         <ingredient name="leather" count="1" grid="-1, 0"/>
@@ -949,20 +962,28 @@
         <ingredient name="leather" count="1" grid="1, 2"/>
     </recipe>
 
-    <recipe name="ironGloves" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="forgedIron" count="1" grid="1, -1"/>
-        <ingredient name="leather" count="1" grid="0, 0"/>
+    <recipe name="ironGloves" count="1" scrapable="False" craft_time="15" craft_exp_gain="25" learn_exp_gain="100" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="forgedIron" count="2" grid="1, -1"/>
+        <ingredient name="leatherStrips" count="2" grid="2, 0"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>
+        <ingredient name="leather" count="2" grid="1, 0"/>
     </recipe>
 
-    <recipe name="ironHelmet" count="1" scrapable="False" craft_time="20" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="ironHelmet" count="1" scrapable="False" craft_time="20" craft_exp_gain="25" learn_exp_gain="100" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="forgedIron" count="1" grid="0, -1"/>
         <ingredient name="forgedIron" count="1" grid="-1, 0"/>
-        <ingredient name="forgedIron" count="1" grid="0, 0"/>
+        <ingredient name="leather" count="1" grid="0, 0"/>
         <ingredient name="forgedIron" count="1" grid="1, 0"/>
-        <ingredient name="forgedIron" count="1" grid="-1, 1"/>
+        <ingredient name="leatherStrips" count="1" grid="-1, 1"/>
     </recipe>
 
-    <recipe name="ironLegArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="ironLegArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="25" learn_exp_gain="100" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="2, -2"/>
         <ingredient name="leather" count="1" grid="-1, -2"/>
         <ingredient name="leather" count="1" grid="0, -2"/>
         <ingredient name="leather" count="1" grid="1, -2"/>
@@ -971,10 +992,11 @@
         <ingredient name="leather" count="1" grid="1, -1"/>
         <ingredient name="forgedIron" count="1" grid="-1, 0"/>
         <ingredient name="forgedIron" count="1" grid="1, 0"/>
-        <ingredient name="forgedIron" count="1" grid="-1, 1"/>
-        <ingredient name="forgedIron" count="1" grid="1, 1"/>
+        <ingredient name="leather" count="1" grid="-1, 1"/>
+        <ingredient name="leather" count="1" grid="1, 1"/>
         <ingredient name="forgedIron" count="1" grid="-1, 2"/>
         <ingredient name="forgedIron" count="1" grid="1, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 0"/>
     </recipe>
 
     <recipe name="ironWall" count="1" scrapable="False" craft_time="30" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1031,55 +1053,69 @@
         <ingredient name="shortMetalPipe" count="1" grid="1, 2"/>
     </recipe>
 
-    <recipe name="leather" count="2" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="leather" count="2" scrapable="False" craft_time="15" craft_exp_gain="10" learn_exp_gain="20" >
         <ingredient name="animalHide" count="1" grid="0, 0"/>
     </recipe>
 
-    <recipe name="leatherBoots" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="leather" count="1" grid="0, -1"/>
-        <ingredient name="leather" count="1" grid="0, 0"/>
-        <ingredient name="leather" count="1" grid="1, 0"/>
+    <recipe name="leatherBoots" count="1" scrapable="False" craft_time="25" craft_exp_gain="28" learn_exp_gain="80" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="leather" count="2" grid="0, -1"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>
+        <ingredient name="leather" count="2" grid="0, 1"/>
+        <ingredient name="leather" count="2" grid="1, 1"/>
+        <ingredient name="leatherStrips" count="2" grid="1, 0"/>
     </recipe>
 
-    <recipe name="leatherGloves" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="leather" count="1" grid="0, 0"/>
-        <ingredient name="leather" count="1" grid="1, 1"/>
+    <recipe name="leatherGloves" count="1" scrapable="False" craft_time="25" craft_exp_gain="28" learn_exp_gain="80" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="leather" count="2" grid="-1, 0"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>
+        <ingredient name="leatherStrips" count="2" grid="1, 0"/>
     </recipe>
 
-    <recipe name="leatherHat" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="leatherHat" count="1" scrapable="False" craft_time="25" craft_exp_gain="28" learn_exp_gain="80" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="leather" count="1" grid="0, -1"/>
         <ingredient name="leather" count="1" grid="-1, 0"/>
         <ingredient name="leather" count="1" grid="0, 0"/>
         <ingredient name="leather" count="1" grid="1, 0"/>
+        <ingredient name="leatherStrips" count="2" grid="0, 1"/>
     </recipe>
 
-    <recipe name="leatherJacket" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="leatherJacket" count="1" scrapable="False" craft_time="35" craft_exp_gain="28" learn_exp_gain="80" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="leather" count="1" grid="-1, -1"/>
         <ingredient name="leather" count="1" grid="0, -1"/>
         <ingredient name="leather" count="1" grid="1, -1"/>
         <ingredient name="leather" count="1" grid="-2, 0"/>
-        <ingredient name="leather" count="1" grid="0, 0"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 0"/>
         <ingredient name="leather" count="1" grid="2, 0"/>
-        <ingredient name="leather" count="1" grid="0, 1"/>
-        <ingredient name="leather" count="1" grid="0, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 1"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 2"/>
     </recipe>
 
-    <recipe name="leatherPants" count="1" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="leatherPants" count="1" scrapable="False" craft_time="30" craft_exp_gain="28" learn_exp_gain="80" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="2, -2"/>
         <ingredient name="leather" count="1" grid="-1, -2"/>
-        <ingredient name="leather" count="1" grid="0, -2"/>
+        <ingredient name="leatherStrips" count="1" grid="0, -2"/>
         <ingredient name="leather" count="1" grid="1, -2"/>
         <ingredient name="leather" count="1" grid="-1, -1"/>
-        <ingredient name="leather" count="1" grid="0, -1"/>
+        <ingredient name="leatherStrips" count="1" grid="0, -1"/>
         <ingredient name="leather" count="1" grid="1, -1"/>
         <ingredient name="leather" count="1" grid="-1, 0"/>
         <ingredient name="leather" count="1" grid="1, 0"/>
         <ingredient name="leather" count="1" grid="-1, 1"/>
         <ingredient name="leather" count="1" grid="1, 1"/>
-        <ingredient name="leather" count="1" grid="-1, 2"/>
-        <ingredient name="leather" count="1" grid="1, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="-1, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="1, 2"/>
     </recipe>
 
-    <recipe name="leatherStrips" count="5" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="leatherStrips" count="5" scrapable="False" craft_time="15" craft_exp_gain="5" learn_exp_gain="20" >
         <ingredient name="leather" count="1" grid="0, 0"/>
     </recipe>
 
@@ -1089,7 +1125,12 @@
     </recipe>
 
     <recipe name="metalStrips" count="5" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="shortMetalPipe" count="1" grid="0, 0"/>
+        <ingredient name="forgedIron" count="1" grid="0, 0"/>
+    </recipe>
+    
+    <recipe name="Needle" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="rockSmall" count="1" grid="0, -1"/>
+        <ingredient name="metalStrips" count="1" grid="0, 0"/>
     </recipe>
 
     <recipe name="metalTrussing" count="3" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1130,10 +1171,11 @@
 
     <recipe name="mp5" count="1" scrapable="True" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="weaponRepairKit" count="1" grid="-2, -2"/>
+        <ingredient name="Spring" count="1" grid="1, 1"/>
         <ingredient name="mp5_stock" count="1" grid="-1, 0"/>
         <ingredient name="mp5_receiver" count="1" grid="0, 0"/>
         <ingredient name="mp5_barrel" count="1" grid="1, 0"/>
-        <ingredient name="mp5_parts" count="1" grid="1, 1"/>
+        <ingredient name="mp5_parts" count="1" grid="0, 1"/>
     </recipe>
 
     <recipe name="nail_Mold" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1210,8 +1252,9 @@
         <ingredient name="shortMetalPipe" count="1" grid="0, 1"/>
     </recipe>
 
-    <recipe name="pistol" count="1" scrapable="True" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="pistol" count="1" scrapable="True" craft_time="5" craft_exp_gain="200" learn_exp_gain="320" >
         <ingredient name="weaponRepairKit" count="1" grid="-2, -2"/>
+        <ingredient name="Spring" count="1" grid="1, -1"/>
         <ingredient name="pistol_parts" count="1" grid="0, 0"/>
         <ingredient name="pistol_barrel" count="1" grid="1, 0"/>
         <ingredient name="pistol_receiver" count="1" grid="0, 1"/>
@@ -1269,6 +1312,7 @@
 
     <recipe name="PumpShotgun" count="1" scrapable="True" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="weaponRepairKit" count="1" grid="-2, -2"/>
+        <ingredient name="Spring" count="1" grid="0, -1"/>
         <ingredient name="PumpShotgun_barrel" count="1" grid="1, -1"/>
         <ingredient name="PumpShotgun_receiver" count="1" grid="0, 0"/>
         <ingredient name="PumpShotgun_parts" count="1" grid="1, 0"/>
@@ -1348,6 +1392,8 @@
     </recipe>
 
     <recipe name="sandbags" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="cloth" count="1" grid="0, -1"/>
         <ingredient name="cloth" count="1" grid="-1, 0"/>
         <ingredient name="sand" count="1" grid="0, 0"/>
@@ -1369,50 +1415,63 @@
 
     <recipe name="sawedOffPumpShotgun" count="1" scrapable="True" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="weaponRepairKit" count="1" grid="-2, -2"/>
+        <ingredient name="Spring" count="1" grid="0, -1"/>
         <ingredient name="PumpShotgun_shortBarrel" count="1" grid="1, -1"/>
         <ingredient name="PumpShotgun_receiver" count="1" grid="0, 0"/>
         <ingredient name="PumpShotgun_parts" count="1" grid="1, 0"/>
         <ingredient name="PumpShotgun_shortStock" count="1" grid="-1, 1"/>
     </recipe>
 
-    <recipe name="scrapBoots" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="leather" count="1" grid="0, -1"/>
-        <ingredient name="scrapIron" count="1" grid="0, 0"/>
-        <ingredient name="scrapIron" count="1" grid="1, 0"/>
+    <recipe name="scrapBoots" count="1" scrapable="False" craft_time="15" craft_exp_gain="25" learn_exp_gain="90" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="leather" count="2" grid="0, -1"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>
+        <ingredient name="leatherStrips" count="2" grid="1, 0"/>
+        <ingredient name="scrapIron" count="2" grid="0, 1"/>
+        <ingredient name="scrapIron" count="2" grid="1, 1"/>
     </recipe>
 
     <recipe name="scrapBrass" count="1" scrapable="False" tooltip="ttScrapMetalBrass" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <wildcard_forge_category />
     </recipe>
 
-    <recipe name="scrapChestArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="scrapChestArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="25" learn_exp_gain="90" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="scrapIron" count="1" grid="-1, -1"/>
-        <ingredient name="scrapIron" count="1" grid="0, -1"/>
+        <ingredient name="leatherStrips" count="1" grid="0, -1"/>
         <ingredient name="scrapIron" count="1" grid="1, -1"/>
         <ingredient name="scrapIron" count="1" grid="-2, 0"/>
         <ingredient name="leather" count="1" grid="-1, 0"/>
-        <ingredient name="scrapIron" count="1" grid="0, 0"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 0"/>
         <ingredient name="leather" count="1" grid="1, 0"/>
         <ingredient name="scrapIron" count="1" grid="2, 0"/>
-        <ingredient name="leather" count="1" grid="-1, 1"/>
-        <ingredient name="scrapIron" count="1" grid="0, 1"/>
-        <ingredient name="leather" count="1" grid="1, 1"/>
+        <ingredient name="scrapIron" count="1" grid="-1, 1"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 1"/>
+        <ingredient name="scrapIron" count="1" grid="1, 1"/>
         <ingredient name="leather" count="1" grid="-1, 2"/>
-        <ingredient name="scrapIron" count="1" grid="0, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="0, 2"/>
         <ingredient name="leather" count="1" grid="1, 2"/>
     </recipe>
 
-    <recipe name="scrapGloves" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="scrapIron" count="1" grid="1, -1"/>
-        <ingredient name="leather" count="1" grid="0, 0"/>
+    <recipe name="scrapGloves" count="1" scrapable="False" craft_time="15" craft_exp_gain="25" learn_exp_gain="90" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
+        <ingredient name="scrapIron" count="2" grid="1, -1"/>
+        <ingredient name="leather" count="2" grid="0, 0"/>
+        <ingredient name="leather" count="2" grid="1, 0"/>
+        <ingredient name="leatherStrips" count="2" grid="2, 0"/>
     </recipe>
 
-    <recipe name="scrapHelmet" count="1" scrapable="False" craft_time="20" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="scrapHelmet" count="1" scrapable="False" craft_time="20" craft_exp_gain="25" learn_exp_gain="90" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="-1, -2"/>
         <ingredient name="scrapIron" count="1" grid="0, -1"/>
         <ingredient name="scrapIron" count="1" grid="-1, 0"/>
-        <ingredient name="scrapIron" count="1" grid="0, 0"/>
+        <ingredient name="leather" count="1" grid="0, 0"/>
         <ingredient name="scrapIron" count="1" grid="1, 0"/>
-        <ingredient name="scrapIron" count="1" grid="-1, 1"/>
+        <ingredient name="leatherStrips" count="1" grid="-1, 1"/>
     </recipe>
 
     <recipe name="scrapIron" count="1" scrapable="False" tooltip="ttScrapMetalIron" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1463,9 +1522,11 @@
         <wildcard_forge_category />
     </recipe>
 
-    <recipe name="scrapLegArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="scrapLegArmor" count="1" scrapable="False" craft_time="25" craft_exp_gain="25" learn_exp_gain="90" >
+        <ingredient name="Threads" count="1" grid="-2, -2"/>
+        <ingredient name="Needle" count="1" grid="2, -2"/>
         <ingredient name="leather" count="1" grid="-1, -2"/>
-        <ingredient name="leather" count="1" grid="0, -2"/>
+        <ingredient name="leatherStrips" count="1" grid="0, -2"/>
         <ingredient name="leather" count="1" grid="1, -2"/>
         <ingredient name="leather" count="1" grid="-1, -1"/>
         <ingredient name="scrapIron" count="1" grid="0, -1"/>
@@ -1474,8 +1535,8 @@
         <ingredient name="scrapIron" count="1" grid="1, 0"/>
         <ingredient name="scrapIron" count="1" grid="-1, 1"/>
         <ingredient name="scrapIron" count="1" grid="1, 1"/>
-        <ingredient name="scrapIron" count="1" grid="-1, 2"/>
-        <ingredient name="scrapIron" count="1" grid="1, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="-1, 2"/>
+        <ingredient name="leatherStrips" count="1" grid="1, 2"/>
     </recipe>
 
     <recipe name="scrapMetalWall" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1607,9 +1668,9 @@
         <ingredient name="woodPlank" count="1" grid="0, 0"/>
     </recipe>
 
-    <recipe name="shortMetalPipe" count="3" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <!-- <recipe name="shortMetalPipe" count="3" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="forgedIron" count="1" grid="0, 0"/>
-    </recipe>
+    </recipe>  -->
 
     <recipe name="shotgunShell" count="1" scrapable="False" craft_time="2" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="buckshot" count="1" grid="1, -1"/>
@@ -1636,12 +1697,13 @@
         <ingredient name="stick" count="1" grid="-2, 2"/>
     </recipe>
 
-    <recipe name="sniperRifle" count="1" scrapable="True" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="sniperRifle" count="1" scrapable="True" craft_time="5" craft_exp_gain="200" learn_exp_gain="300" >
         <ingredient name="weaponRepairKit" count="1" grid="-2, -2"/>
+        <ingredient name="Spring" count="1" grid="1, 0"/>
         <ingredient name="sniperRifleBarrel" count="1" grid="1, -1"/>
         <ingredient name="sniperRifle_triggerHousing" count="1" grid="0, 0"/>
         <ingredient name="sniperRifle_stock" count="1" grid="-1, 1"/>
-        <ingredient name="sniperRifleParts" count="1" grid="1, 0"/>
+        <ingredient name="sniperRifleParts" count="1" grid="0, 1"/>
     </recipe>
 
     <recipe name="sod" count="2" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
@@ -1695,15 +1757,15 @@
         <ingredient name="forgedIron" count="1" grid="0, 1"/>
     </recipe>
 
-    <recipe name="stick" count="4" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="stick" count="4" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="0, 0"/>
     </recipe>
 
-    <recipe name="stone" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="stone" count="1" scrapable="False" craft_time="8" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="rock01" count="1" grid="0, 0"/>
     </recipe>
 
-    <recipe name="stone" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="stone" count="1" scrapable="False" craft_time="8" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="rock05" count="1" grid="0, 0"/>
     </recipe>
 
@@ -1722,7 +1784,7 @@
         <ingredient name="stick" count="1" grid="-2, 2"/>
     </recipe>
 
-    <recipe name="storageAmmo" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageAmmo" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1734,7 +1796,7 @@
         <ingredient name="woodPlank" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="storageBuilding" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageBuilding" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1746,7 +1808,7 @@
         <ingredient name="woodPlank" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="storageExplosives" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageExplosives" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1758,7 +1820,7 @@
         <ingredient name="woodPlank" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="storageFood" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageFood" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1770,7 +1832,7 @@
         <ingredient name="woodPlank" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="storageHealth" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageHealth" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1782,7 +1844,7 @@
         <ingredient name="woodPlank" count="1" grid="1, 1"/>
     </recipe>
 
-    <recipe name="storageWeapons" count="1" scrapable="False" craft_time="5" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="storageWeapons" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="woodPlank" count="1" grid="-1, -1"/>
         <ingredient name="woodPlank" count="1" grid="0, -1"/>
         <ingredient name="woodPlank" count="1" grid="1, -1"/>
@@ -1892,11 +1954,9 @@
 
     <recipe name="woodenBow" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="stick" count="1" grid="2, -2"/>
-        <ingredient name="yuccaFibers" count="1" grid="1, -1"/>
         <ingredient name="stick" count="1" grid="2, -1"/>
-        <ingredient name="yuccaFibers" count="1" grid="0, 0"/>
+        <ingredient name="Threads" count="1" grid="0, 0"/>
         <ingredient name="stick" count="1" grid="1, 0"/>
-        <ingredient name="yuccaFibers" count="1" grid="-1, 1"/>
         <ingredient name="stick" count="1" grid="0, 1"/>
         <ingredient name="stick" count="1" grid="-2, 2"/>
         <ingredient name="stick" count="1" grid="-1, 2"/>

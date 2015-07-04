@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group name="[admin]">
+<!--Admins
+	<item name="test" />
+	<item name="Admin_tool_1" />
+	<item name="M202A1_'FLASH'" />
+	<item name="M74_Rocket" />
+
+-->
+	<item name="Admin_tool_2" />
+	<item name="Admin_tool_3" />	
+	
+</group>

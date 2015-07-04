@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group name="[other]">
+	<item name="Bulb" />
+	<item name="Cooling_System" />
+	<item name="Сircuit" />
+	<item name="Wire" />
+	<item name="Electronic_Scrap" />
+	<item name="Battery_LR2032" />
+	<item name="Battery_LR03" />
+	<item name="Battery_LR06" />
+	<item name="Battery_LR14" />
+	<item name="Battery_LR20" />
+	<item name="Battery_6F22" />
+	<item name="Sewing_Kit" />
+	<item name="Needle" />
+	<item name="Threads" />
+	<item name="Spring" />
+	
+	
+</group>

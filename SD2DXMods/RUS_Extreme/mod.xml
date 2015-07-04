@@ -19,5 +19,6 @@ Blocks
 		<import file="Configs\block.xml" />
 		<import file="Configs\material.xml" />
 		<import file="Configs\biome.xml" />
+		<import file="Configs\recipe.xml" />
 	</config_mods>
 </mod>

@@ -20,6 +20,5 @@ Blocks
 		<import file="Configs\material.xml" />
 		<import file="Configs\biome.xml" />
 		<import file="Configs\recipe.xml" />
-		<import file="Configs\loot.xml" />
 	</config_mods>
 </mod>

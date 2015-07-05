@@ -9558,7 +9558,7 @@
 			<property name="Pos" value="0.1,-0.1" />
 			<property name="Rot" value="0,-45,0" />
 		</property>
-	</item>
+	</item>-->
 	<item id="3501" name="Admin_tool_2">
 		<property name="CustomIcon" value="painkillers" />
 		<property name="CustomIconTint" value="E83A48" />
@@ -9608,7 +9608,7 @@
 		</property>
 	</item>
 
--->
+
 
 <!--Растения-->
 

@@ -385,7 +385,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="goldOre" count="1" prob="1.0" />
-		<drop event="Fall" name="goldOre" />
+		<drop event="Fall" name="goldOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="52" name="aluminumOre">
@@ -395,7 +395,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="aluminumOre" count="1" prob="1.0" />
-		<drop event="Fall" name="aluminumOre" />
+		<drop event="Fall" name="aluminumOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="53" name="silverOre">
@@ -405,17 +405,17 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="silverOre" count="1" prob="1.0" />
-		<drop event="Fall" name="silverOre" />
+		<drop event="Fall" name="silverOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="54" name="sulphurOre">
 		<property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />
 		<property name="Mesh" value="terrain" />
-		<property name="Texture" value="33" />
+		<property name="Texture" value="300" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="sulphurOre" count="1" prob="1.0" />
-		<drop event="Fall" name="sulphurOre" />
+		<drop event="Fall" name="sulphurOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="55" name="chromeOre">
@@ -425,7 +425,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="chromeOre" count="1" prob="1.0" />
-		<drop event="Fall" name="chromeOre" />
+		<drop event="Fall" name="chromeOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="56" name="nickelOre">
@@ -435,7 +435,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="nickelOre" count="1" prob="1.0" />
-		<drop event="Fall" name="nickelOre" />
+		<drop event="Fall" name="nickelOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="57" name="manganeseOre">
@@ -445,7 +445,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="manganeseOre" count="1" prob="1.0" />
-		<drop event="Fall" name="manganeseOre" />
+		<drop event="Fall" name="manganeseOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="58" name="limestoneOre">
@@ -455,7 +455,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="limestoneOre" count="1" prob="1.0" />
-		<drop event="Fall" name="limestoneOre" />
+		<drop event="Fall" name="limestoneOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="59" name="marbleOre">
@@ -465,7 +465,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="marbleOre" count="1" prob="1.0" />
-		<drop event="Fall" name="marbleOre" />
+		<drop event="Fall" name="marbleOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="60" name="quarzOre">
@@ -475,7 +475,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="quarzOre" count="1" prob="1.0" />
-		<drop event="Fall" name="quarzOre" />
+		<drop event="Fall" name="quarzOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="61" name="apatiteOre">
@@ -485,7 +485,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="apatiteOre" count="1" prob="1.0" />
-		<drop event="Fall" name="apatiteOre" />
+		<drop event="Fall" name="apatiteOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="62" name="titanOre">
@@ -495,7 +495,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="titanOre" count="1" prob="1.0" />
-		<drop event="Fall" name="titanOre" />
+		<drop event="Fall" name="titanOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="63" name="tinOre">
@@ -505,7 +505,7 @@
 		<property name="Texture" value="33" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="tinOre" count="1" prob="1.0" />
-		<drop event="Fall" name="tinOre" />
+		<drop event="Fall" name="tinOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="64" name="zincOre">
@@ -515,7 +515,7 @@
 		<property name="Texture" value="300" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="zincOre" count="1" prob="1.0" />
-		<drop event="Fall" name="zincOre" />
+		<drop event="Fall" name="zincOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 	<block id="65" name="magnesiumOre">
@@ -525,7 +525,7 @@
 		<property name="Texture" value="300" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="magnesiumOre" count="1" prob="1.0" />
-		<drop event="Fall" name="magnesiumOre" />
+		<drop event="Fall" name="magnesiumOre" count="1" prob="1.0" />
 		<property name="DropScale" value="2" />
 	</block>
 
@@ -1576,14 +1576,19 @@
     <property name="Group" value="Food/Cooking" />
   </block>
   <block id="311" name="oven">
-    <property name="Class" value="Loot" />
-    <property name="Material" value="metal" />
-    <property name="Shape" value="Ext3dModel" />
-    <property name="Mesh" value="models" />
-    <property name="Model" value="Appliances/oven" param1="main_mesh" />
-    <property name="LootList" value="5" />
-    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
-    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+	<property name="Class" value="Campfire" />
+	<property name="Material" value="metal" />
+	<property name="Shape" value="Ext3dModel" />
+	<property name="Mesh" value="models" />
+	<property name="Model" value="Appliances/oven" param1="main_mesh" />
+	<property name="ParticleName" value="campfire" />	
+	<property name="ParticleOffset" value="0.5,0,0.5" />
+	<property name="HeatMapStrength" value="2" />
+	<property name="HeatMapTime" value="1200" />
+	<property name="HeatMapFrequency" value="25" />
+	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+	<property name="Group" value="Decor" />
   </block>
   <block id="312" name="oldChair">
     <property name="Material" value="furniture" />
@@ -2212,7 +2217,7 @@
       <!-- damage for entities in the center of the explosion -->
     </property>
     <drop event="Destroy" count="0" prob="1" />
-    <property name="CanPickup" value="true" />
+	<property name="CanPickup" param1="Oil_Barrel" value="true" />
   </block>
   <block id="374" name="cinderBlocks01">
     <property name="Material" value="stone" />
@@ -3712,6 +3717,11 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/bed02_1" param1="main_mesh" />
     <property name="Group" value="Decor" />
+    <property name="Class" value="SleepingBag" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="544" name="bed02_2">
     <property name="Material" value="furniture" />
@@ -3719,6 +3729,10 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/bed02_2" param1="main_mesh" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="545" name="bed02_3">
     <property name="Material" value="furniture" />
@@ -3726,6 +3740,10 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/bed02_3" param1="main_mesh" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="546" name="bed02_4">
     <property name="Material" value="furniture" />
@@ -3733,6 +3751,10 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="Furniture/bed02_4" param1="main_mesh" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="547" name="endTable">
     <property name="Material" value="furniture" />
@@ -3760,6 +3782,10 @@
     <property name="FuelValue" value="44" />
     <property name="CanPickup" value="true" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="550" name="sectionalCorner2">
     <property name="Material" value="furniture" />
@@ -3769,6 +3795,10 @@
     <property name="FuelValue" value="164" />
     <property name="CanPickup" value="true" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="551" name="sectionalMiddle2">
     <property name="Material" value="furniture" />
@@ -3778,6 +3808,10 @@
     <property name="FuelValue" value="164" />
     <property name="CanPickup" value="true" />
     <property name="Group" value="Decor" />
+	<drop event="Destroy" name="cloth" count="1" prob="0.15" />
+	<drop event="Destroy" name="leather" count="1" prob="0.15" />
+	<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+	<drop event="Destroy" name="planks" count="1" prob="0.25" />
   </block>
   <block id="552" name="tv">
     <property name="Material" value="metal_thin" />
@@ -3787,6 +3821,8 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
+    <drop event="Destroy" name="Wire" count="1,3" prob="1" />
+    <drop event="Destroy" name="Electronic_Scrap" count="2,5" prob="1" />
     <property name="CanPickup" value="true" />
     <property name="Group" value="Decor" />
   </block>
@@ -3798,6 +3834,8 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
+    <drop event="Destroy" name="Wire" count="1,3" prob="1" />
+    <drop event="Destroy" name="Electronic_Scrap" count="2,5" prob="1" />
     <property name="Group" value="Decor" />
   </block>
   <block id="554" name="tv_large_1">
@@ -3808,7 +3846,10 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
+    <drop event="Destroy" name="Wire" count="1,3" prob="1" />
+    <drop event="Destroy" name="Electronic_Scrap" count="2,5" prob="1" />
     <property name="Group" value="Decor" />
+	<property name="CanPickup" value="true" />
   </block>
   <block id="555" name="tv_large_2">
     <property name="Material" value="metal_thin" />
@@ -3818,7 +3859,10 @@
     <property name="Collide" value="bullet,rocket,melee" />
     <property name="Weight" value="8" />
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
+    <drop event="Destroy" name="Wire" count="1,3" prob="1" />
+    <drop event="Destroy" name="Electronic_Scrap" count="2,5" prob="1" />
     <property name="Group" value="Decor" />
+	<property name="CanPickup" value="true" />
   </block>
   <block id="556" name="forge">
     <property name="Class" value="Forge" />
@@ -8554,13 +8598,17 @@
     <property name="Group" value="Decor" />
   </block>
   <block id="1076" name="wallOven">
-    <property name="Class" value="Loot" />
-    <property name="Material" value="wood_weak" />
-    <property name="Texture" value="346,345,341,345,262,345" />
-    <property name="LootList" value="3" />
-    <drop event="Destroy" name="woodDebris" count="1" />
-    <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
-    <property name="Group" value="Decor" />
+	<property name="Class" value="Campfire" />
+	<property name="Material" value="wood_weak" />
+	<property name="Texture" value="346,345,341,345,262,345" />
+	<property name="ParticleName" value="campfire" />
+	<property name="ParticleOffset" value="0.5,0,0.5" />
+	<property name="HeatMapStrength" value="2" />
+	<property name="HeatMapTime" value="1200" />
+	<property name="HeatMapFrequency" value="25" />
+	<drop event="Destroy" name="woodDebris" count="1" />
+	<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
+	<property name="Group" value="Decor" />
   </block>
   <block id="1077" name="cabinetTop">
     <property name="Class" value="Loot" />
@@ -11622,6 +11670,7 @@
     <property name="Collide" value="movement,rocket,melee" />
     <property name="Model" value="Entities/Decor/cobwebPrefab" />
     <drop event="Destroy" count="0" />
+	<property name="CanPickup" value="true" />
   </block>
   
   <block id="1389" name="hangingMoss">

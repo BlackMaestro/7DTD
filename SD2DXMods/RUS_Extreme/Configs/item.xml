@@ -10315,7 +10315,77 @@
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-<!--Разное расходники для крафта-->
+
+	<item id="1038" name="Aloe_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="aloe1" />
+		</property>
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	
+	<item id="1039" name="Yucca_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="yucca1" />
+		</property>
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	
+	<item id="1040" name="Chrysanthemum_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="chrysanthemum1" />
+		</property>
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--Разное расходники для крафта-->
 	<item id="2500" name="Bulb">
 		<property name="Meshfile" value="Items/Misc/brokenGlass" />
 		<property name="Material" value="glass" />

@@ -1093,7 +1093,110 @@
 		<drop event="Destroy" name="sweetbrier" count="2" prob="0.8" />
 		<drop event="Harvest" name="sweetbrier" count="3,6" />
 	</block>
-    
+	<block id="143" name="aloe1">
+	<property name="Class" value="PlantGrowing" />
+    	<property name="Material" value="plants" />
+	    <property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+	    	<property name="Next" value="aloe2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="0" />
+			<property name="IsRandom" value="false" />
+		</property>
+		</block>
+
+	<block id="144" name="aloe2">
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="297" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="plantAloe" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="0" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+
+
+
+	<block id="145" name="yucca1">
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="yucca2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="0" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+
+	<block id="146" name="yucca2">
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="297" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="plantYucca" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="0" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+
+	<block id="147" name="chrysanthemum1">
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="393" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="chrysanthemum2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+
+	<block id="148" name="chrysanthemum2">
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="394" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="plantChrysanthemum" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+
   <block id="257" name="blueberrySprout">
     <property name="Class" value="PlantGrowing" />
     <property name="Material" value="plants" />
@@ -1110,6 +1213,7 @@
       <property name="IsRandom" value="false" />
     </property>
   </block>
+  
   <block id="258" name="blueberry">
     <property name="Class" value="CropsGrown" />
     <property name="Material" value="plants" />

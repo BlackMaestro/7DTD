@@ -59,6 +59,15 @@
     <recipe name="sweetbrier_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="sweetbrier" count="1" grid="0, 0"/>
     </recipe>
+    <recipe name="Chrysanthemum_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="plantChrysanthemum" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="Aloe_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="plantAloe" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="Yucca_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="plantYucca" count="1" grid="0, 0"/>
+    </recipe>
 
 
 

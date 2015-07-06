@@ -9508,57 +9508,57 @@
 	
 	
 <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-<!--     	<item id="3500" name="Admin_tool_1">
-		<property name="CustomIcon" value="pistol" />
-		<property name="Meshfile" value="#DiamondSword?DiamondSwordPrefab" />
-		<property name="Material" value="metal" />
-		<property name="HoldType" value="1" />
-		<property name="Stacknumber" value="1" />
-		<property name="SoundJammed" value="Weapons/weapon_jam" />
-		<property class="Action0">
-			<property name="Class" value="Melee" />
-			<property name="Delay" value="0.2" />
-			<property name="Range" value="500" />
-			<property name="DamageEntity" value="6" />
-			<property name="DamageBlock" value="20" />
-			<property name="Magazine_size" value="-1" />
-			<property name="Magazine_item" value="nail" />
-			<property name="Reload_time" value="0.3" />
-			<property name="Bullet_icon" value="uzi" />
-			<property name="Sound_start" value="" />
-			<property name="Sound_repeat" value="" />
-			<property name="Sound_end" value="" />
-			<property name="Sound_empty" value="" />
-			<property name="Sound_reload" value="" />
-			<property name="Particles_muzzle_fire" value="impact_stone_on_wood" />
-			<property name="horde_meter_rate" value="0.1" />
-			<property name="horde_meter_distance" value="1" />
-			<property name="DamageBonus.metal" value="50" />
-			<property name="DamageBonus.concrete" value="50" />
-			<property name="DamageBonus.boulder" value="50" />
-			<property name="DamageBonus.stone" value="50" />
-			<property name="DamageBonus.earth" value="50" />
-			<property name="DamageBonus.wood" value="50" />
-			<property name="DamageBonus.bedrock" value="50" />
-		</property>
-		<property class="Action1">
-			<property name="Class" value="Ranged" />
-			<property name="Delay" value="0.2" />
-			<property name="Range" value="200" />
-			<property name="DamageEntity" value="50" />
-			<property name="Bullet_icon" value="pistol" />
-			<property name="Magazine_item" value="7.62x51mm_NATO" />
-			<property name="Infinite_ammo" value="true" />
-			<property name="Sound_start" value="" />
-			<property name="Particles_muzzle_fire" value="blood_death" />
-		</property>
-		<property name="Group" value="Ammo/Weapons" />
-		<property class="Preview">
-			<property name="Zoom" value="14" />
-			<property name="Pos" value="0.1,-0.1" />
-			<property name="Rot" value="0,-45,0" />
-		</property>
-	</item>-->
+     	<item id="3500" name="Admin_tool_1">
+					<property name="CustomIcon" value="pistol" />
+					<property name="Meshfile" value="#DiamondSword?DiamondSwordPrefab" />
+					<property name="Material" value="metal" />
+					<property name="HoldType" value="1" />
+					<property name="Stacknumber" value="1" />
+					<property name="SoundJammed" value="Weapons/weapon_jam" />
+					<property class="Action0">
+						<property name="Class" value="Melee" />
+						<property name="Delay" value="0.2" />
+						<property name="Range" value="500" />
+						<property name="DamageEntity" value="50" />
+						<property name="DamageBlock" value="20" />
+						<property name="Magazine_size" value="-1" />
+						<property name="Magazine_items" value="nail" />
+						<property name="Reload_time" value="0.3" />
+						<property name="Bullet_icon" value="uzi" />
+						<property name="Sound_start" value="" />
+						<property name="Sound_repeat" value="" />
+						<property name="Sound_end" value="" />
+						<property name="Sound_empty" value="" />
+						<property name="Sound_reload" value="" />
+						<property name="Particles_muzzle_fire" value="impact_stone_on_wood" />
+						<property name="horde_meter_rate" value="0.1" />
+						<property name="horde_meter_distance" value="1" />
+						<property name="DamageBonus.metal" value="50" />
+						<property name="DamageBonus.concrete" value="50" />
+						<property name="DamageBonus.boulder" value="50" />
+						<property name="DamageBonus.stone" value="50" />
+						<property name="DamageBonus.earth" value="50" />
+						<property name="DamageBonus.wood" value="50" />
+						<property name="DamageBonus.bedrock" value="50" />
+					</property>
+					<property class="Action1">
+						<property name="Class" value="Ranged" />
+						<property name="Delay" value="0.2" />
+						<property name="Range" value="200" />
+						<property name="DamageEntity" value="50" />
+						<property name="Bullet_icon" value="pistol" />
+						<property name="Magazine_items" value="7.62x51mm_NATO" />
+						<property name="Infinite_ammo" value="true" />
+						<property name="Sound_start" value="" />
+						<property name="Particles_muzzle_fire" value="blood_death" />
+					</property>
+					<property name="Group" value="Donate" />
+					<property class="Preview">
+						<property name="Zoom" value="14" />
+						<property name="Pos" value="0.1,-0.1" />
+						<property name="Rot" value="0,-45,0" />
+					</property>
+				</item>
 	<item id="3501" name="Admin_tool_2">
 		<property name="CustomIcon" value="painkillers" />
 		<property name="CustomIconTint" value="E83A48" />

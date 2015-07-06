@@ -270,11 +270,14 @@
     <property name="DropScale" value="2" />
   </block>
   <block id="23" name="copperOre">
-    <property name="Material" value="metal" />
-    <property name="Shape" value="Terrain" />
-    <property name="Mesh" value="terrain" />
-    <property name="Texture" value="96" />
-    <property name="DropScale" value="2" />
+	<property name="Material" value="copper" />
+	<property name="Shape" value="Terrain" />
+	<property name="Mesh" value="terrain" />
+	<property name="Texture" value="96" />
+	<property name="DropScale" value="2" />
+	<property name="Weight" value="48" />
+	<drop event="Destroy" name="copperOre" count="1" prob="1.0" />
+	<drop event="Fall" name="copperOre" count="1" prob="1.0" />
   </block>
   <block id="24" name="burntForestGround">
     <property name="Material" value="forestGround" />
@@ -315,6 +318,7 @@
     <property name="FuelValue" value="400" />
     <property name="DropScale" value="2" />
     <drop event="Fall" name="coalOre" count="1" prob="1.0" />
+	<drop event="Destroy" name="coalOre" count="1" prob="1.0" />
   </block>
   <block id="28" name="terrainFiller">
     <property name="Material" value="stone" />

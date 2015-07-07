@@ -2305,15 +2305,10 @@
     <property name="Model" value="Industrial/barrel01" param1="main_mesh" />
     <property class="Explosion">
       <property name="ParticleIndex" value="4" />
-      <!-- which prefab/particle is used -->
       <property name="RadiusBlocks" value="4" />
-      <!-- damage radius for blocks -->
       <property name="BlockDamage" value="100" />
-      <!-- damage for blocks in the center of the explosion -->
       <property name="RadiusEntities" value="7" />
-      <!-- damage radius for entities -->
       <property name="EntityDamage" value="500" />
-      <!-- damage for entities in the center of the explosion -->
     </property>
     <drop event="Destroy" count="0" prob="1" />
 	<property name="CanPickup" param1="Oil_Barrel" value="true" />

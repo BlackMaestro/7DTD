@@ -22,5 +22,6 @@ Blocks
 		<import file="Configs\recipe.xml" />
 		<import file="Configs\group.xml" />
 		<import file="Configs\buff.xml" />
+		<import file="Configs\loot.xml" />
 	</config_mods>
 </mod>

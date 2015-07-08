@@ -6266,8 +6266,8 @@
     <property name="Texture" value="395" />
     <property name="Collide" value="melee" />
     <property name="IsTerrainDecoration" value="true" />
-    <drop event="Destroy" name="coffeeBeans" count="1,2" prob="0.8" />
-    <drop event="Harvest" name="coffeeBeans" count="2" />
+    <drop event="Destroy" name="beansCoffeeGreen" count="1,2" prob="0.8" />
+    <drop event="Harvest" name="beansCoffeeGreen" count="2" />
   </block>
   <block id="762" name="goldenrodSprout">
     <property name="Class" value="PlantGrowing" />

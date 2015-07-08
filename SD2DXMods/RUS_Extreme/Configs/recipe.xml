@@ -69,8 +69,15 @@
         <ingredient name="plantYucca" count="1" grid="0, 0"/>
     </recipe>
 
+    <recipe name="boxCoffee" count="3" scrapable="True" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="canCoffee" count="1" grid="0, 0"/>
+        <ingredient name="cup" count="1" grid="1, 0"/>
+    </recipe>
 
 
+	<recipe name="coffeeBeans" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPan" craft_time="15" learn_exp_gain="20" craft_exp_gain="5">
+		<ingredient name="beansCoffeeGreen" count="1" />
+	</recipe>
 
 
 	<recipe name="porkCharred" count="1" scrapable="False" craft_area="campfire" craft_tool="stick" craft_time="10" learn_exp_gain="20" craft_exp_gain="5">

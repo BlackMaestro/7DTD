@@ -10,7 +10,6 @@
     <property name="Texture" value="250" />
   </block>
   <block id="1" name="stone">
-	<property name="CustomIcon" value="stone" />
     <property name="Material" value="stone" />
     <property name="Shape" value="Terrain" />
     <property name="Mesh" value="terrain" />
@@ -265,7 +264,7 @@
 	<property name="Material" value="copper" />
 	<property name="Shape" value="Terrain" />
 	<property name="Mesh" value="terrain" />
-	<property name="Texture" value="96" />
+	<property name="Texture" value="1,96,96,96,96,1" />
 	<property name="DropScale" value="2" />
 	<property name="Weight" value="48" />
 	<drop event="Destroy" name="copperOre" count="1" prob="1.0" />
@@ -377,7 +376,7 @@
 	    <property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />
 		<property name="Mesh" value="terrain" />
-		<property name="Texture" value="33" />
+		<property name="Texture" value="1,96,96,96,96,1" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="goldOre" count="1" prob="1.0" />
 		<drop event="Fall" name="goldOre" count="1" prob="1.0" />
@@ -387,7 +386,7 @@
 		<property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />
 		<property name="Mesh" value="terrain" />
-		<property name="Texture" value="33" />
+		<property name="Texture" value="1,6,6,6,6,1" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="aluminumOre" count="1" prob="1.0" />
 		<drop event="Fall" name="aluminumOre" count="1" prob="1.0" />
@@ -447,7 +446,7 @@
 		<property name="Material" value="copper" />
 		<property name="Shape" value="Terrain" />
 		<property name="Mesh" value="terrain" />
-		<property name="Texture" value="33" />
+		<property name="Texture" value="1,6,6,6,6,1" />
 		<property name="Weight" value="96" />
 		<drop event="Destroy" name="limestoneOre" count="1" prob="1.0" />
 		<drop event="Fall" name="limestoneOre" count="1" prob="1.0" />

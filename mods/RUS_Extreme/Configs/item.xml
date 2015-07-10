@@ -224,9 +224,17 @@
             <property name="DamageBlock" value="2" />
             <property name="Sound_start" value="swoosh" />
             <property name="Stamina_usage" value="4" />
-            <property name="DamageBonus.glass" value="25" />
-            <property name="DamageBonus.head" value="4" />
-            <property name="DamageBonus.wood" value=".3" />
+				<property name="DamageBonus.glass" value="25" />
+				<property name="DamageBonus.head" value="4" />
+				<property name="DamageBonus.stone" value="5" />
+				<property name="DamageBonus.copper" value="4" />
+				<property name="DamageBonus.metal" value="2" />
+				<property name="DamageBonus.tungsten" value="0.1" />
+				<property name="DamageBonus.boulder" value="5" />
+				<property name="DamageBonus.concrete" value="2.5" />
+				<property name="DamageBonus.earth" value="0.5" />
+				<property name="DamageBonus.wood" value=".3" />
+				<property name="DamageBonus.bedrock" value=".01" />
         </property>
         <property name="Group" value="Tools/Traps" />
         <property class="Attributes">
@@ -310,9 +318,11 @@
             <property name="DamageBlock" value="1" />
             <property name="Sound_start" value="swoosh" />
             <property name="Stamina_usage" value="8" />
-            <property name="DamageBonus.earth" value="15" />
+            <property name="DamageBonus.earth" value="100" />
             <property name="DamageBonus.glass" value="25" />
+            <property name="DamageBonus.grass" value="500" />
             <property name="DamageBonus.head" value="4" />
+            <property name="DamageBonus.stone" value="8" />
         </property>
             <property class="Attributes">
             <property name="EntityDamage" value="4,12" />
@@ -1262,7 +1272,7 @@
     </item>
     <item id="101" name="ingotCopper">
         <property name="Meshfile" value="Items/Crafting/ingotCopper" />
-        <property name="Material" value="metal" />
+        <property name="Material" value="copper" />
         <property name="HoldType" value="21" />
         <property name="Group" value="Resources" />
         <property class="Preview">
@@ -10846,7 +10856,7 @@
 <!--Минералы и другие металлы и сплдавы-->
 	<item id="3450" name="goldIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Gold" />
+		<property name="Material" value="gold" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10871,7 +10881,7 @@
     </item>
 	<item id="3452" name="silverIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Silver" />
+		<property name="Material" value="silver" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10896,7 +10906,7 @@
     </item>
 	<item id="3454" name="aluminumIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Aluminum" />
+		<property name="Material" value="aluminum" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10921,7 +10931,7 @@
     </item>
 	<item id="3456" name="sulphurIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Sulphur" />
+		<property name="Material" value="sulphur" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10946,7 +10956,7 @@
     </item>
 	<item id="3458" name="nickelIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Nickel" />
+		<property name="Material" value="nickel" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10971,7 +10981,7 @@
     </item>
 	<item id="3460" name="manganeseIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Manganese" />
+		<property name="Material" value="manganese" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -10996,7 +11006,7 @@
     </item>
 	<item id="3462" name="titanIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Titan" />
+		<property name="Material" value="titan" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -11046,7 +11056,7 @@
     </item>
 	<item id="3466" name="zincIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Zinc" />
+		<property name="Material" value="zinc" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -11071,7 +11081,7 @@
     </item>
 	<item id="3468" name="chromeIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Chrome" />
+		<property name="Material" value="chrome" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -11096,7 +11106,7 @@
     </item>
 	<item id="3470" name="magnesiumIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
-		<property name="Material" value="Magnesium" />
+		<property name="Material" value="magnesium" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="48" />
 		<property name="Group" value="Resources" />
@@ -11120,8 +11130,45 @@
         </property>
     </item>
 
+<!-- Вещи -->	
 	
-	
+    <item id="3500" name="pickaxeTitan">
+        <property name="Meshfile" value="Items/Tools/pickaxe_steel" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="4" />
+        <property name="Stacknumber" value="1" />
+        <property name="RepairTools" value="metalStrips" />
+        <property name="Weight" value="96" />
+        <property name="Degradation" value="500" param1="true" />
+        <property name="SoundDestroy" value="metaldestroy1" />
+        <property name="FuelValue" value="16" />
+        <property class="Action0">
+            <!-- AttackAction -->
+            <property name="Class" value="Melee" />
+            <property name="Delay" value="1.5" />
+            <property name="Range" value="2" />
+            <property name="Sphere" value="0.1" />
+            <property name="Block_range" value="4" />
+            <property name="DamageEntity" value="10" />
+            <property name="DamageBlock" value="2" />
+            <property name="Sound_start" value="swoosh" />
+            <property name="Stamina_usage" value="5" />
+            <property name="DamageBonus.glass" value="25" />
+            <property name="DamageBonus.head" value="4" />
+            <property name="DamageBonus.stone" value="200" />
+            <property name="DamageBonus.titan" value="200" />
+        </property>
+        <property name="Group" value="Tools/Traps" />
+        <property class="Attributes">
+            <property name="EntityDamage" value="6,20" />
+            <property name="BlockDamage" value="4,24" />
+            <property name="DegradationMax" value="200,600" />
+			<property name="DegradationRate" value="2,1" />
+        </property>  
+        <property class="Preview">
+            <property name="Pos" value="-0.05,-0.4" />
+        </property>
+    </item>  
 	
 	
 	

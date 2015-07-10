@@ -535,35 +535,44 @@
    </material>
 
 <!--UP-->
-   <material id="coal">
-      <property name="damage_category" value="stone" />
-      <property name="surface_category" value="stone" />
+    <material id="coal">
+      <property name="damage_category" value="coal" />
+      <property name="surface_category" value="coal" />
       <property name="Hardness" type="float" value="2.0" />
       <property name="stepsound" value="stone" />
       <property name="stability_glue" value="16" />
       <property name="Mass" type="int" value="8" />
-   </material>
+    </material>
+	<material id="limestone">
+		<property name="damage_category" value="limestone" />
+		<property name="surface_category" value="limestone" />
+		<property name="forge_category" value="limestone" />
+		<property name="Hardness" type="float" value="1.5" />
+		<property name="stepsound" value="metal" />
+		<property name="stability_glue" value="0" />
+		<property name="Mass" type="int" value="1" />
+	</material>
 	<material id="sulphur">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="sulphur" />
+		<property name="surface_category" value="sulphur" />
 		<property name="forge_category" value="sulphur" />
 		<property name="Hardness" type="float" value="2" />
 		<property name="stepsound" value="metal" />
 		<property name="stability_glue" value="80" />
 		<property name="Mass" type="int" value="20" />
 	</material>
-   <material id="lead">
-      <property name="damage_category" value="metal" />
-      <property name="surface_category" value="metal" />
+    <material id="lead">
+      <property name="damage_category" value="lead" />
+      <property name="surface_category" value="lead" />
       <property name="forge_category" value="lead" />
       <property name="Hardness" type="float" value="4" />
       <property name="stepsound" value="metal" />
       <property name="stability_glue" value="320" />
       <property name="Mass" type="int" value="20" />
-   </material>
+    </material>
 	<material id="aluminum">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="aluminum" />
+		<property name="surface_category" value="aluminum" />
 		<property name="forge_category" value="aluminum" />
 		<property name="Hardness" type="float" value="5" />
 		<property name="stepsound" value="metal" />
@@ -571,8 +580,8 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="gold">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="gold" />
+		<property name="surface_category" value="gold" />
 		<property name="forge_category" value="gold" />
 		<property name="Hardness" type="float" value="5" />
 		<property name="stepsound" value="metal" />
@@ -580,8 +589,8 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="silver">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="silver" />
+		<property name="surface_category" value="silver" />
 		<property name="forge_category" value="silver" />
 		<property name="Hardness" type="float" value="8" />
 		<property name="stepsound" value="metal" />
@@ -589,17 +598,17 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="tin">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="tin" />
+		<property name="surface_category" value="tin" />
 		<property name="forge_category" value="tin" />
 		<property name="Hardness" type="float" value="8" />
 		<property name="stepsound" value="metal" />
 		<property name="stability_glue" value="80" />
 		<property name="Mass" type="int" value="20" />
 	</material>
-   <material id="copper">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+    <material id="copper">
+		<property name="damage_category" value="copper" />
+		<property name="surface_category" value="copper" />
 		<property name="forge_category" value="copper" />
 		<property name="Hardness" type="float" value="10" />
 		<property name="stepsound" value="metal" />
@@ -607,8 +616,8 @@
 		<property name="Mass" type="int" value="20" />
     </material>
 	<material id="nickel">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="nickel" />
+		<property name="surface_category" value="nickel" />
 		<property name="forge_category" value="nickel" />
 		<property name="Hardness" type="float" value="12" />
 		<property name="stepsound" value="metal" />
@@ -616,8 +625,8 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="zinc">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="zinc" />
+		<property name="surface_category" value="zinc" />
 		<property name="forge_category" value="zinc" />
 		<property name="Hardness" type="float" value="80" />
 		<property name="stepsound" value="metal" />
@@ -625,8 +634,8 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="magnesium">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="magnesium" />
+		<property name="surface_category" value="magnesium" />
 		<property name="forge_category" value="magnesium" />
 		<property name="Hardness" type="float" value="12" />
 		<property name="stepsound" value="metal" />
@@ -634,8 +643,8 @@
 		<property name="Mass" type="int" value="1" />
 	</material>
 	<material id="manganese">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="manganese" />
+		<property name="surface_category" value="manganese" />
 		<property name="forge_category" value="manganese" />
 		<property name="Hardness" type="float" value="14" />
 		<property name="stepsound" value="metal" />
@@ -643,8 +652,8 @@
 		<property name="Mass" type="int" value="20" />
 	</material>
 	<material id="chrome">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
+		<property name="damage_category" value="chrome" />
+		<property name="surface_category" value="chrome" />
 		<property name="forge_category" value="chrome" />
 		<property name="Hardness" type="float" value="15" />
 		<property name="stepsound" value="metal" />
@@ -659,15 +668,6 @@
 		<property name="stepsound" value="metal" />
 		<property name="stability_glue" value="80" />
 		<property name="Mass" type="int" value="20" />
-	</material>
-	<material id="limestone">
-		<property name="damage_category" value="metal" />
-		<property name="surface_category" value="metal" />
-		<property name="forge_category" value="energy" />
-		<property name="Hardness" type="float" value="1.5" />
-		<property name="stepsound" value="metal" />
-		<property name="stability_glue" value="0" />
-		<property name="Mass" type="int" value="1" />
 	</material>
 	<material id="energy">
 		<property name="damage_category" value="metal" />

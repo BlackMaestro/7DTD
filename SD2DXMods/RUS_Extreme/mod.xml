@@ -1,0 +1,27 @@
+<mod>
+	<info>
+		<author>Extreme</author>
+		<name>RUS_Extreme</name>
+		<description>
+Added:
+Ore
+Gaia
+Eat
+Blocks
+		</description>
+		<mod_version>2.024.118</mod_version>
+		<game_version>alpha 12</game_version>
+		<launcher_version>0.3</launcher_version>
+	</info>
+	
+	<config_mods>
+		<import file="Configs\item.xml" />
+		<import file="Configs\block.xml" />
+		<import file="Configs\material.xml" />
+		<import file="Configs\recipe.xml" />
+		<import file="Configs\group.xml" />
+		<import file="Configs\buff.xml" />
+		<import file="Configs\loot.xml" />
+		<import file="Configs\biome.xml" />
+	</config_mods>
+</mod>

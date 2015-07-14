@@ -1,0 +1,8 @@
+﻿<recipe name="clubWood" count="1" scrapable="False" craft_time="3" craft_exp_gain="2" learn_exp_gain="20">
+  <ingredient name="stick" count="1" grid="1, -2" />
+  <ingredient name="stick" count="1" grid="2, -2" />
+  <ingredient name="stick" count="1" grid="1, -1" />
+  <ingredient name="stick" count="1" grid="2, -1" />
+  <ingredient name="stick" count="1" grid="0, 0" />
+  <ingredient name="stick" count="1" grid="-1, 1" />
+</recipe>

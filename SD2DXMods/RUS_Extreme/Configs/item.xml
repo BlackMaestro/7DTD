@@ -8,12 +8,6 @@
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
-        <property class="Action1">
-            <!-- UseAction -->
-            <property name="Class" value="PlaceAsBlock" />
-            <property name="Delay" value="0.5" />
-            <property name="Blockname" value="coffeeSprout" />
-        </property>
         <property name="Group" value="Food/Cooking" />
         <property class="Preview">
             <property name="Zoom" value="25" />

@@ -678,6 +678,15 @@
 		<property name="stability_glue" value="0" />
 		<property name="Mass" type="int" value="1" />
 	</material>
+	<material id="granite">
+		<property name="damage_category" value="granite" />
+		<property name="surface_category" value="granite" />
+		<property name="forge_category" value="granite" />
+		<property name="Hardness" type="float" value="100" />
+		<property name="stepsound" value="stone" />
+		<property name="stability_glue" value="120" />
+		<property name="Mass" type="int" value="15" />
+	</material>
 </materials>
 		</append>
 		

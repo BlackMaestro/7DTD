@@ -15,7 +15,547 @@
 			</block>
 		</append>	
 
-	<remove xpath="/blocks/block[@name='snowyGrassDiagonal']" />
+	<remove xpath="/blocks/block[@name='radiated']" />
+		<append xpath="blocks">
+			  <block id="5" name="radiated">
+				<property name="Material" value="dirt" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="181" />
+				<property name="CanMobsSpawnOn" value="false" />
+				<property name="CanPlayersSpawnOn" value="false" />
+				<property name="DropScale" value="2" />
+				<property name="Class" value="Damage" />
+				<property name="Damage" value="1" />
+				<property name="BuffsWhenWalkedOn" value="radiation" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='sand']" />
+		<append xpath="blocks">
+			  <block id="8" name="sand">
+				<property name="Material" value="sand" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="185" />
+				<property name="DropScale" value="2" />
+				<property name="Map.Color" value="167,136,107" />
+				<drop event="Destroy" name="Bait" count="1" prob="0.01" />
+				<drop event="Destroy" name="sand" count="1" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='sandStone']" />
+		<append xpath="blocks">
+			  <block id="13" name="sandStone">
+				<property name="Material" value="sandstone" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="184,184,184,184,184,184" />
+				<property name="Map.Color" value="107,78,57" />
+				<property name="DropScale" value="2" />
+				<drop event="Destroy" name="Bait" count="1,2" prob="0.1" />
+				<drop event="Destroy" name="sandStone" count="1" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='tungstenOre']" />
+		<append xpath="blocks">
+			  <block id="17" name="tungstenOre">
+				<property name="Material" value="tungsten" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="375" />
+				<property name="Weight" value="96" />
+				<property name="DropScale" value="2" />
+				<drop event="Destroy" name="tungstenOre" count="1" prob="0.9" />
+				<drop event="Fall" name="tungstenOre" count="1" prob="1.0"  stick_chance=".75" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='fertileDirt']" />
+		<append xpath="blocks">
+			  <block id="19" name="fertileDirt">
+				<property name="Class" value="PlantGrowing" />
+				<property name="Material" value="farmland" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="2" />
+				<property name="PlantGrowing.FertileLevel" value="0" />
+				<property name="PlantGrowing.Next" value="fertileGrass" />
+				<property name="PlantGrowing.GrowthRate" value="10" />
+				<property name="PlantGrowing.LightLevelStay" value="0" />
+				<property name="PlantGrowing.IsRandom" value="true" />
+				<property name="PlantGrowing.GrowIfAnythinOnTop" value="false" />
+				<drop event="Destroy" name="fertileDirt" />
+				<drop event="Destroy" name="Bait" count="1,2" prob="0.1" />
+				<property name="DropScale" value="2" />
+				<property name="LPHardnessScale" value="2" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='fertileGrass']" />
+		<append xpath="blocks">
+			  <block id="20" name="fertileGrass">
+				<property name="Class" value="PlantGrowing" />
+				<property name="Material" value="dirt" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="0,2,0,0,0,0" />
+				<property name="PlantGrowing.FertileLevel" value="0" />
+				<property name="PlantGrowing.Next" value="grass" />
+				<property name="PlantGrowing.GrowthRate" value="2" />
+				<property name="PlantGrowing.GrowOnTop" value="tallGrassDiagonal" />
+				<property name="PlantGrowing.IsRandom" value="true" />
+				<drop event="Destroy" name="fertileDirt" />
+				<drop event="Destroy" name="Bait" count="1,2" prob="0.1" />
+				<property name="DropScale" value="2" />
+				<property name="LPHardnessScale" value="2" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='fertileFarmland']" />
+		<append xpath="blocks">
+			  <block id="22" name="fertileFarmland">
+				<property name="Material" value="farmland" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="290,2,2,2,2,2" />
+				<property name="CanMobsSpawnOn" value="false" />
+				<drop event="Destroy" name="fertileDirt" />
+				<drop event="Destroy" name="Bait" count="1,2" prob="0.2" />
+				<property name="DropScale" value="2" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='copperOre']" />
+		<append xpath="blocks">
+			  <block id="23" name="copperOre">
+				<property name="Material" value="copper" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="96" />
+				<property name="DropScale" value="2" />
+				<property name="Weight" value="48" />
+				<drop event="Destroy" name="copperOre" count="1" prob="1.0" />
+				<drop event="Fall" name="copperOre" count="1" prob="1.0" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='forestGround']" />
+		<append xpath="blocks">
+			  <block id="25" name="forestGround">
+				<property name="Material" value="forestGround" />
+				<property name="Shape" value="Terrain" />
+				<property name="Mesh" value="terrain" />
+				<property name="Texture" value="195,2,195,195,195,195" />
+				<drop event="Destroy" name="Plains_Dirt" />
+				<drop event="Destroy" name="Bait" count="1" prob="0.2" />
+				<property name="DropScale" value="2" />
+				<property name="LPHardnessScale" value="2" />
+				<property name="Map.Color" value="52,63,55" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='blueberry']" />
+		<append xpath="blocks">
+			  <block id="258" name="blueberry">
+				<property name="Class" value="CropsGrown" />
+				<property name="Material" value="plants" />
+				<property name="Shape" value="BillboardPlant" />
+				<property name="Mesh" value="cutoutmoveable" />
+				<property name="Texture" value="295" />
+				<property name="Collide" value="melee" />
+				<property name="IsTerrainDecoration" value="true" />
+				<drop event="Destroy" name="blueberries" count="1,2" prob="0.8" />
+				<drop event="Harvest" name="blueberries" count="3" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='potatoes']" />
+		<append xpath="blocks">
+			  <block id="261" name="potatoes">
+				<property name="Class" value="CropsGrown" />
+				<property name="Material" value="plants" />
+				<property name="Shape" value="BillboardPlant" />
+				<property name="Mesh" value="cutoutmoveable" />
+				<property name="Texture" value="298" />
+				<property name="Collide" value="melee" />
+				<property name="IsTerrainDecoration" value="true" />
+				<drop event="Destroy" name="potato" count="1,2" prob="0.8" />
+				<drop event="Harvest" name="potato" count="3" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='oven']" />
+		<append xpath="blocks">
+			  <block id="311" name="oven">
+				<property name="Class" value="Campfire" />
+				<property name="Material" value="metal" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Appliances/oven" param1="main_mesh" />
+				<property name="ParticleName" value="campfire" />
+				<property name="ParticleOffset" value="0.5,0,0.5" />
+				<property name="HeatMapStrength" value="2" />
+				<property name="HeatMapTime" value="1200" />
+				<property name="HeatMapFrequency" value="25" />
+				<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+				<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+				<property name="Group" value="Decor" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='oilBarrel']" />
+		<append xpath="blocks">
+			  <block id="373" name="oilBarrel">
+				<property name="Class" value="TNT" />
+				<property name="Material" value="metal_thin" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Industrial/barrel01" param1="main_mesh" />
+				<property class="Explosion">
+				  <property name="ParticleIndex" value="4" />
+				  <property name="RadiusBlocks" value="4" />
+				  <property name="BlockDamage" value="100" />
+				  <property name="RadiusEntities" value="7" />
+				  <property name="EntityDamage" value="500" />
+				</property>
+				<drop event="Destroy" count="0" prob="1" />
+				<property name="CanPickup" param1="Oil_Barrel" value="true" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='bed02_1']" />
+		<append xpath="blocks">
+			  <block id="543" name="bed02_1">
+				<property name="Material" value="furniture" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Furniture/bed02_1" param1="main_mesh" />
+				<property name="Group" value="Decor" />
+				<property name="Class" value="SleepingBag" />
+				<drop event="Destroy" name="cloth" count="1" prob="0.1" />
+				<drop event="Destroy" name="leather" count="1" prob="0.01" />
+				<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+				<drop event="Destroy" name="planks" count="1" prob="0.2" />
+    <property name="CanPickup" value="true" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='bed02_2']" />
+		<append xpath="blocks">
+			  <block id="544" name="bed02_2">
+				<property name="Material" value="furniture" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Furniture/bed02_2" param1="main_mesh" />
+				<property name="Group" value="Decor" />
+				<property name="Class" value="SleepingBag" />
+				<drop event="Destroy" name="cloth" count="1" prob="0.1" />
+				<drop event="Destroy" name="leather" count="1" prob="0.01" />
+				<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+				<drop event="Destroy" name="planks" count="1" prob="0.2" />
+    <property name="CanPickup" value="true" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='bed02_3']" />
+		<append xpath="blocks">
+			  <block id="545" name="bed02_3">
+				<property name="Material" value="furniture" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Furniture/bed02_3" param1="main_mesh" />
+				<property name="Group" value="Decor" />
+				<drop event="Destroy" name="cloth" count="1" prob="0.1" />
+				<drop event="Destroy" name="leather" count="1" prob="0.01" />
+				<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+				<drop event="Destroy" name="planks" count="1" prob="0.2" />
+    <property name="CanPickup" value="true" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='bed02_4']" />
+		<append xpath="blocks">
+			  <block id="546" name="bed02_4">
+				<property name="Material" value="furniture" />
+				<property name="Shape" value="Ext3dModel" />
+				<property name="Mesh" value="models" />
+				<property name="Model" value="Furniture/bed02_4" param1="main_mesh" />
+				<property name="Group" value="Decor" />
+				<drop event="Destroy" name="cloth" count="1" prob="0.1" />
+				<drop event="Destroy" name="leather" count="1" prob="0.01" />
+				<drop event="Destroy" name="scrapIron" count="2" prob="0.3" />
+				<drop event="Destroy" name="planks" count="1" prob="0.2" />
+    <property name="CanPickup" value="true" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='glass']" />
+		<append xpath="blocks">
+			  <block id="667" name="glass">
+				<property name="Material" value="glass" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Texture" value="241" /> 
+				<property name="Place" value="TowardsPlacerInverted" />
+				<property name="Weight" value="64" />
+				<property name="ModelOffset" value="0,0.5,0" />
+				<property name="Model" value="Entities/Buildings/glass_industrialPrefab" />
+				<property name="ModelOffset" value="0,0.5,0" />
+				<property class="UpgradeBlock">
+				  <property name="ToBlock" value="WindowPlug" />
+				  <property name="Item" value="woodPlank" />
+				  <property name="ItemCount" value="4" />
+				  <property name="UpgradeHitCount" value="4" />
+				</property>    
+				<drop event="Destroy" name="brokenGlass" count="1,2" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='wallOven']" />
+		<append xpath="blocks">
+			  <block id="1076" name="wallOven">
+				<property name="Class" value="Campfire" />
+				<property name="Material" value="wood_weak" />
+				<property name="Texture" value="346,345,341,345,262,345" />
+				<property name="ParticleName" value="campfire" />
+				<property name="ParticleOffset" value="0.5,0,0.5" />
+				<property name="HeatMapStrength" value="2" />
+				<property name="HeatMapTime" value="1200" />
+				<property name="HeatMapFrequency" value="25" />
+				<drop event="Destroy" name="woodDebris" count="1" />
+				<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
+				<property name="Group" value="Decor" />
+			  </block>
+		</append>
+	<remove xpath="/blocks/block[@name='cobweb']" />
+		<append xpath="blocks">
+			  <block id="1388" name="cobweb">
+				<property name="Material" value="cloth" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Texture" value="15" />
+				<property name="Collide" value="movement,rocket,melee" />
+				<property name="Model" value="Entities/Decor/cobwebPrefab" />
+				<drop event="Destroy" count="0" />
+				<property name="CanPickup" value="true" />
+			  </block>
+		</append>
+		
+		
+	<remove xpath="/blocks/block[@name='porchLight01']" />
+		<append xpath="blocks">
+  <block id="316" name="porchLight01">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/porchLight01Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.10" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+		
+		
+	<remove xpath="/blocks/block[@name='porchLight04']" />
+		<append xpath="blocks">
+  <block id="317" name="porchLight04">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/porchLight04Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='porchLight04Brass']" />
+		<append xpath="blocks">
+  <block id="318" name="porchLight04Brass">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/porchLight04BrassPrefab" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='ceilingLight01']" />
+		<append xpath="blocks">
+  <block id="319" name="ceilingLight01">
+    <property name="Class" value="Light" />
+    <property name="Material" value="glass" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight01Prefab" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='ceilingLight02']" />
+		<append xpath="blocks">
+  <block id="320" name="ceilingLight02">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight02Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+		
+		
+	<remove xpath="/blocks/block[@name='ceilingLight02Brass']" />
+		<append xpath="blocks">
+  <block id="321" name="ceilingLight02Brass">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='ceilingLight04']" />
+		<append xpath="blocks">
+  <block id="322" name="ceilingLight04">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight04Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='ceilingLight05']" />
+		<append xpath="blocks">
+  <block id="323" name="ceilingLight05">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight05Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='ceilingLight05Brass']" />
+		<append xpath="blocks">
+  <block id="324" name="ceilingLight05Brass">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab" />
+    <drop event="Destroy" name="scrapBrass" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+	<remove xpath="/blocks/block[@name='wallLight01']" />
+		<append xpath="blocks">
+  <block id="325" name="wallLight01">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal_thin" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Light" value="0.5" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/wall_light01Prefab" />
+    <drop event="Destroy" name="ironFragment" count="1" prob="1" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+
+		<remove xpath="/blocks/block[@name='fridge']" />
+		<append xpath="blocks">
+  <block id="349" name="fridge">
+    <property name="Class" value="Loot" />
+    <property name="Material" value="metal" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="282" />
+    <property name="Weight" value="72" />
+    <property name="LootList" value="4" />
+    <property name="Model" value="Entities/LootContainers/fridgePrefab" />
+    <!-- <drop event="Destroy" name="scrapIron" count="3,5" prob="1" /> -->
+    <property name="Group" value="Decor" />
+    <drop event="Destroy" name="scrapIron" count="2,3" prob="1" />
+    <drop event="Destroy" name="Cooling_System" count="1" prob="0.3" />
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
+  </block>
+		
+		</append>
+		
+		<remove xpath="/blocks/block[@name='streetLight01']" />
+		<append xpath="blocks">
+  <block id="364" name="streetLight01">
+    <property name="Class" value="Light" />
+    <property name="Material" value="metal" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Texture" value="241" />
+    <property name="Collide" value="bullet,melee" />
+    <property name="Model" value="Entities/Lighting/street_light01Prefab" />
+    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+		<drop event="Destroy" name="Bulb" count="1" prob="0.5" />
+		<drop event="Destroy" name="Wire" count="1" prob="0.3" />
+  </block>
+		
+		</append>
+		
+		<remove xpath="/blocks/block[@name='fridgeTop']" />
+		<append xpath="blocks">
+  <block id="840" name="fridgeTop">
+    <property name="Class" value="Loot" />
+    <property name="Material" value="metal_weak" />
+    <property name="Texture" value="267,267,265,267,265,267" />
+    <property name="LootList" value="4" />
+    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+    <drop event="Destroy" name="Cooling_System" count="1" prob="0.2" />
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
+    <property name="Group" value="Decor" />
+  </block>
+		
+		</append>
+		<remove xpath="/blocks/block[@name='fridgeBottom']" />
+		<append xpath="blocks">
+  <block id="841" name="fridgeBottom">
+    <property name="Material" value="metal_weak" />
+    <property name="Texture" value="267,267,266,267,266,267" />
+	<property name="Weight" value="18" />
+    <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+    <drop event="Destroy" name="Cooling_System" count="1" prob="0.2" />
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />    
+    <property name="Group" value="Decor" />
+  </block>
+		
+		</append>
+		
+		
+		
+		<remove xpath="/blocks/block[@name='snowyGrassDiagonal']" />
 		<append xpath="blocks">
   <block id="276" name="snowyGrassDiagonal">
     <property name="Class" value="Deadgrass" />
@@ -970,7 +1510,29 @@
 			<property name="IsRandom" value="false" />
 		</property>
 	</block>
-		</append>	
+	<block id="149" name="lans">
+		<property name="Class" value="Loot" />
+		<property name="Material" value="metal" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="Appliances/ac_unit" param1="main_mesh" />
+		<property name="LootList" value="20" />
+		<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="Group" value="Decor" />
+	</block>
+	<block id="150" name="granite">
+		<property name="Material" value="granite" />
+		<property name="Shape" value="Terrain" />
+		<property name="Mesh" value="terrain" />
+		<property name="Texture" value="1" />
+		<property name="Weight" value="128" />
+		<property name="DropScale" value="2" />
+		<property name="LPHardnessScale" value="2" />
+		<drop event="Fall" name="granite" count="1" prob="1.0" />
+		<property name="Map.Color" value="255,228,196" />
+	</block>
+	  </append>	
 	</config>
 
 </configs>
